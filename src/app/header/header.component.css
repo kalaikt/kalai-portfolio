@@ -1,0 +1,51 @@
+header{background-color: #000; color: gray; padding: 1rem;}
+#top-header{display: flex;  justify-content: center; align-items: center;}
+#top-header h1 {flex: 1;
+  text-shadow: 1px 0px #165875;
+  color: #505c65;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#top-header h1::before, #logo::before { background-image: url('../../assets/img/kalai.jpg');
+  background-size: 100% 100%;
+  content: '';
+  padding: .7rem 2rem;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-right: 1rem;}
+#top-header nav { text-align: right; flex: 1;}
+#top-header nav li{display: inline-block; text-align: center; padding: 0 .8rem;}
+#top-header nav li:last-child{ padding-right: 0;}
+#top-header nav li a{color: gray; text-decoration: none; text-transform: uppercase;}
+#top-header nav li a:hover{color: #2196F3;}
+#logo{
+  color: #a9a4a4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+  /*text-shadow: #EDEDED 3px 2px 0;*/
+  position: relative;
+  padding: 1rem 0;
+}
+#logo:after {
+  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+  background-size: 4px 4px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  content: "KALAIKUMAR";
+  position: absolute;
+  left: 82px;
+  top: 18px;
+}
+.role{
+    margin-left: 12rem;
+}
+.role h1{
+  color: #fff;
+  font-size: 5vw;
+  line-height: 5vw;
+}
