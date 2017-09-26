@@ -1,10 +1,10 @@
-import { KalaiPorfolioPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('kalai-porfolio App', () => {
-  let page: KalaiPorfolioPage;
+describe('kalai-portfolio App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new KalaiPorfolioPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
