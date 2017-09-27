@@ -1,0 +1,6 @@
+{
+	"frontEnd": ["HTML 5", "CSS 3", "JavaScript", "Angular.JS", "React.JS", "Polymer.JS", "Ext.JS", "Require.JS", "Bootstrap", "LESS", "SASS/SCSS", "Webpack", "Grunt", "Babel", "Bower"],
+	"ServerSide": ["Node.JS", "PHP", "CakePHP", "Joomla", "Drupal", "WordPress"],
+	"backEnd": ["MySQL", "Oracle 11g/10g", "PL/SQL", "SQL Developer", "SQL Server"],
+	"tools": ["GIT", "TortoiseSVN", "Bitbucket",	"JIRA", "Confluence", "Really", "Notepad++", "Atom", "Dreamviewer", "Chrome Developer tools",	"FireBug"]
+}
