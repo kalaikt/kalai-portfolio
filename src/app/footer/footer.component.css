@@ -1,0 +1,20 @@
+footer{
+  font-size: 2vw;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+footer i{
+  color: yellow;
+}
+footer div{
+  flex: 1;
+}
+.social-icon{
+  text-align: right;
+  display: inline-block;
+}

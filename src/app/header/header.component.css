@@ -1,4 +1,4 @@
-header{background-color: #000; color: gray; padding: 1rem;}
+header{background-color: #000; color: gray; padding: 2rem;}
 #top-header{display: flex;  justify-content: center; align-items: center;}
 #top-header h1 {flex: 1;
   text-shadow: 1px 0px #165875;
@@ -46,6 +46,6 @@ header{background-color: #000; color: gray; padding: 1rem;}
 }
 .role h1{
   color: #fff;
-  font-size: 5vw;
-  line-height: 5vw;
+  font-size: 4vw;
+  line-height: 4vw;
 }

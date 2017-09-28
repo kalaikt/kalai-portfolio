@@ -1,3 +1,26 @@
-<p>
-  main works!
-</p>
+<section class="skills">
+  <div>
+    <header>{{frontEndTile}}</header>
+    <ul>
+      <li *ngFor="let front of skills.frontEnd">{{front}}</li>
+    </ul>
+  </div>
+  <div>
+    <header>{{serverSideTitle}}</header>
+    <ul>
+      <li *ngFor="let front of skills.serverSide">{{front}}</li>
+    </ul>
+  </div>
+  <div>
+    <header>{{backEndTile}}</header>
+    <ul>
+      <li *ngFor="let front of skills.backEnd">{{front}}</li>
+    </ul>
+  </div>
+  <div>
+    <header>{{toolsTile}}</header>
+    <ul>
+      <li *ngFor="let front of skills.tools">{{front}}</li>
+    </ul>
+  </div>
+</section>

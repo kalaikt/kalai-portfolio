@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-main',
@@ -9,14 +10,21 @@ import { Http, Response } from '@angular/http';
 
 export class MainComponent implements OnInit {
 
-  public skills = {};
+  skills = {};
 
-  constructor(private http: Http) {
-    //this.getSkils().subscribe(skills => this.skills = skills);
+  frontEndTile = 'Front-end';
+  backEndTile = 'Back-end';
+  serverSideTitle = 'Server Side';
+  toolsTile = 'Tools';
+
+  constructor(private dataService: DataService, private http: Http) {
+
   }
 
   ngOnInit() {
-    this.http.get('./api/skills.json')
-      .subscribe((res: Response)  => this.skills = res.json());
+    this.dataService.getSkils()
+      .subscribe((res: Response)  => {
+        this.skills = res.json();
+      });
   }
 }

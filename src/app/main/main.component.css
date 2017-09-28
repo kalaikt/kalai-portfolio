@@ -1,0 +1,17 @@
+.skills{
+  display: flex;
+  padding: 2rem;
+  margin-bottom: 9vw;
+}
+.skills div{
+  flex: 1;
+}
+
+.skills div header{
+  font-size: 3vw;
+  font-weight: bold;
+}
+.skills div ul{
+  list-style: none;
+  font-size: 1.5rem;
+}
