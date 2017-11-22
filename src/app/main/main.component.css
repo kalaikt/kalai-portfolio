@@ -1,17 +1,26 @@
 .skills{
   display: flex;
   padding: 2rem;
-  margin-bottom: 9vw;
+  background: #f6f6f6;
 }
 .skills div{
   flex: 1;
+  margin-right: 3rem;
+  border-right: 1px dashed #42AB9E;
+}
+.skills div:last-child{
+  border-right: none;
 }
 
 .skills div header{
-  font-size: 3vw;
-  font-weight: bold;
+  font-size: 2.5vw;
+    line-height: 2.5vw;
+    text-transform: uppercase;
 }
 .skills div ul{
   list-style: none;
   font-size: 1.5rem;
+}
+ul.card-text{
+  padding-left: 15px;
 }

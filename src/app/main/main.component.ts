@@ -11,9 +11,9 @@ import { DataService } from '../data.service';
 export class MainComponent implements OnInit {
 
   skills = {};
-
-  frontEndTile = 'Front-end';
-  backEndTile = 'Back-end';
+  public welcome = 'Welcome to Kalai\'s Profile';
+  frontEndTile = 'Front-End';
+  backEndTile = 'Back-End';
   serverSideTitle = 'Server Side';
   toolsTile = 'Tools';
 

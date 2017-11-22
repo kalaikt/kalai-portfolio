@@ -1,5 +1,5 @@
-header{background-color: #000; color: gray; padding: 2rem;}
-#top-header{display: flex;  justify-content: center; align-items: center;}
+header{color: gray; padding: 2rem;}
+#top-header{display: flex;  justify-content: center; align-items: center; line-height: 3vw;}
 #top-header h1 {flex: 1;
   text-shadow: 1px 0px #165875;
   color: #505c65;
@@ -18,7 +18,7 @@ header{background-color: #000; color: gray; padding: 2rem;}
 #top-header nav li{display: inline-block; text-align: center; padding: 0 .8rem;}
 #top-header nav li:last-child{ padding-right: 0;}
 #top-header nav li a{color: gray; text-decoration: none; text-transform: uppercase;}
-#top-header nav li a:hover{color: #2196F3;}
+#top-header nav li a:hover{color: #42AB9E;}
 #logo{
   color: #a9a4a4;
   text-decoration: none;
@@ -42,10 +42,21 @@ header{background-color: #000; color: gray; padding: 2rem;}
   top: 18px;
 }
 .role{
-    margin-left: 12rem;
 }
 .role h1{
-  color: #fff;
+  color: #42AB9E;
   font-size: 4vw;
   line-height: 4vw;
+  margin-top: 100px;
 }
+#logo-kalai{color: #000; font-size: 3vw; text-transform: uppercase;border-bottom: 1px solid #42AB9E;line-height: 40px;
+    color: #fff;}
+.navbar-brand a{text-decoration: none;}
+.navbar-brand div{
+    color: rgba(255,255,255,.75);
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+header{padding-bottom:0;}

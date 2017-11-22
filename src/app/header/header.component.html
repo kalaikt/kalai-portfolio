@@ -1,16 +1,24 @@
-<header>
-  <div id="top-header">
-    <div id="logo">{{name}}</div>
-    <nav>
-      <ul>
-        <li *ngFor="let menu of menus"><a href="">{{menu}}</a></li>
-      </ul>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+            <a href="#" id="logo-kalai">{{name}}</a>
+            <div>ABOUT ME AS A PROFESSIONAL</div>
+        </div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" *ngFor="let menu of menus">
+              <a class="nav-link" href="#">{{menu}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  </div>
-  <div class="role">
-    <p>ABOUT ME AS A PROFESSIONAL</p>
-    <h1>UI/Front-end Developer,<br>
-      Oracle PL/SQL Developer,<br>
-      and UI Architect.</h1>
-  </div>
-</header>
+
+    <header>
+      <div class="container role">
+        <h1>UI/Front-end Developer, Oracle PL/SQL Developer and UI Architect.</h1>
+      </div>
+    </header>
