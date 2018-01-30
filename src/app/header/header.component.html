@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <div class="navbar-brand">
-            <a href="#" id="logo-kalai">
+            <a routerLink="" id="logo-kalai">
               <span>{{name}}</span>
               <div>{{logo_slogan}}</div>
             </a>
@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item" *ngFor="let menu of menus">
-              <a class="nav-link" href="#">{{menu}}</a>
+              <a class="nav-link" routerLinkActive="active" [routerLink]="menu.path">{{menu.text}}</a>
             </li>
           </ul>
         </div>
@@ -21,7 +21,7 @@
     </nav>
 
     <header>
-      <div class="container role">
+      <div class="container role" [hidden]="!showRole">
         <h1>UI/Front-end Developer, Oracle PL/SQL Developer and UI Architect.</h1>
       </div>
     </header>

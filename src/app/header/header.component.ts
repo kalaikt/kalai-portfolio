@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,17 +7,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  public menus = ['About me', 'Projects', 'Testimonial', 'Contact me'];
+  public menus = [
+        { text: 'About me',   path: 'about-me' },
+        { text: 'Projects',   path: 'projects' },
+        { text: 'Testimonial',   path: 'testimonial' },
+        { text: 'Contact me',   path: 'contact-me' }
+      ];
   public name = 'Kalaikumar';
   public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
 
-  constructor() {
+  public showRole;
 
+
+  constructor(private router: Router) {
+    router.events.subscribe((url:any) => {
+      //console.log(url.url);
+      this.showRole = url.url == '/' || url.url =='/about-me' || url.url =='/contact-me';
+    });
   }
 
   ngOnInit() {
 
   }
-
-
 }

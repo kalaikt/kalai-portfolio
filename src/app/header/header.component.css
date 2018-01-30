@@ -45,22 +45,25 @@ header{color: gray; padding: 2rem;}
 }
 .role h1{
   color: #42AB9E;
-  font-size: 4vw;
-  line-height: 4vw;
-  margin-top: 100px;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-top: 60px;
 }
-#logo-kalai{color: #000; font-size: 3rem; text-transform: uppercase;border-bottom: 1px solid #42AB9E;line-height: 40px;
+#logo-kalai{color: #000; font-size: 2rem; text-transform: uppercase;border-bottom: 1px solid #42AB9E;line-height: 2rem;
     color: #fff;}
+.navbar-nav {text-transform: uppercase;
+    font-size: 1rem;}
+.navbar-brand {padding: 0;}
 .navbar-brand a{text-decoration: none;}
 .navbar-brand div{
     color: rgba(255,255,255,.75);
-    font-size: .95rem;
+    font-size: .52rem;
     letter-spacing: 3px;
     text-align: center;
-    line-height: .95rem;
-    margin-top: 15px;
+    line-height: .52rem;
+    margin-top: 5px;
 }
-header{padding-bottom:0;}
+header{padding-bottom:0; }
 @media only screen and (max-width:1024px){
   .navbar-brand div{
     font-size: .52rem;
