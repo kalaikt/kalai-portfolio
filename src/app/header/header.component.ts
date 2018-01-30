@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   public menus = ['About me', 'Projects', 'Testimonial', 'Contact me'];
   public name = 'Kalaikumar';
-  
+  public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
+
   constructor() {
 
   }
