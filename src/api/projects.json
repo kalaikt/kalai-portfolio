@@ -1,0 +1,58 @@
+[
+  {
+    "id": "20181",
+    "title": "Stright Through Process",
+    "description": "Auto insurance application which have many modules such as Add/Replace/Delate vehicles, Auto coverage, Driver Assignment, Edit Coverage, Careate/Edit/Delete policy,  Edit Driver and ect.",
+    "role": "Senior UI Developer",
+    "responsibilities": [
+      "Worked closely with clients to define business objectives, project scope, solution space and design/development approach for various knowledge applications.",
+      "Worked in Application Design, Object Oriented Design, Development, Documentation, Testing, Maintenance and Agile/Scrum Project Management.",
+      "Managing scrum meeting, sprint backlog refinement, sprint planning, sprint review and sprint retrospective",
+      "AngularJS 1.3 framework environment setup for UI development",
+      "Developing and modifing angular directives and html views, controlers, models using HTML 5, CSS 3, JSON, AngularJS and JavaScript"
+    ],
+    "env": "AngularJS, HTML 5, CSS 3, JavaScript, Node.JS, NPM, Java, Apache Tomcat, RESTful Web Service, Atom, Postman, Chrome Developer Tool, SQL Developer, GIT, TortoiseSVN",
+    "image": "",
+    "link": "",
+    "isFreeLanceProject": false,
+    "period": "Oct 2017 - Till"
+  },
+  {
+    "id": "20172",
+    "title": "Medallion",
+    "description": "Medallion is a small disk that will be sent to every passenger before he or she leaves home. Tiny in size and massive in ability, the 1.8-ounce Ocean Medallion is the shape of a quarter and stores the information that travelers provide- not just online before the trip but also in real time as the device is powered through another creation, the company's Ocean Compass digital concierge. You can wear the Medallion around your wrist (like an Apple Watch), around your neck (like a pendant) or just carry it in your pocket. Benefits of Ocean Medallion include streamlined embarkation and debarkation, the ability to locate friends and family throughout the ship, better interactions with crew members who also will have devices and easier ways to access dining and entertainment throughout the cruise.",
+    "role": "Senior UI Developer",
+    "responsibilities": [
+      "Worked closely with clients to define business objectives, project scope, solution space and design/development approach for various knowledge applications.",
+      "Setting up ReactJS framework for UI development.",
+      "Developed html views using HTML 5, CSS 3, JSON, and JavaScript.",
+      "Used ReactJS to make the HTML, DHTML and CSS code interact with the JavaScript functions to add dynamism to the web pages at the client side.Developed html views using HTML 5, CSS 3, JSON, and JavaScript.",
+      "Writing front-end code like HTML, CSS, SASS, ReactJS, RequireJS, Redux and various other JavaScript frameworks and writing Web Services using Spring Boot RESTful service.",
+      "Generated server side PL/SQL scripts for data manipulation and validation and materialized views for remote instances.",
+      "Developed PL/SQL triggers and master tables for automatic creation of primary keys",
+      "Created PL/SQL Stored Procedures, Functions and Packages for moving the data from staging area to data mart.",
+      "Code enhancement, Unit Test case writing using Chai, Jasmine and bug fixes.",
+      "Created wireframes, storyboards, user flows, and documentation and site maps to effectively communicate design ideas.",
+      "Developing custom components using ReactJS & Redux.",
+      "Developing Controllers, Views, Services and Components."
+
+    ],
+    "env": "React.JS, Webpack, Babel, ES6, Moment, Redux, HTML 5, CSS 3, JavaScript, Node.JS, NPM, Java, Apache Tomcat, Spring Boot, RESTful Web Service, Oracle 11g, PL/SQL, Linux, Atom, Postman, Chrome Developer Tool, SQL Developer, GIT",
+    "image": "",
+    "link": "",
+    "isFreeLanceProject": false,
+    "period": "Mar 2017 - Sep 2017"
+  },
+  {
+    "id":"",
+    "title": "",
+    "description": "",
+    "role": "",
+    "responsibilities": "",
+    "env": "",
+    "image": "",
+    "link": "",
+    "isFreeLanceProject": false,
+    "period": ""
+  }
+]

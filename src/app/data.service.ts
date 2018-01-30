@@ -15,4 +15,8 @@ export class DataService{
   getSkils(){
     return this.http.get('./api/skills.json');
   }
+  
+  getProjects(){
+    return this.http.get('./api/projects.json');
+  }
 }
