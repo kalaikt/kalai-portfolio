@@ -14,3 +14,19 @@ footer i{
 .contact i{ width: 20px; }
 .contact{ font-size: 1.5rem; }
 .fa-phone-square{font-size: 28px;}
+
+@media only screen and (max-width:1024px){
+  .social-icon{
+    text-align: right;
+    font-size: 1rem;
+    display: inline-block;
+  }
+  p{
+    font-size: .6rem;
+  }
+  .py-5{
+    padding: 1rem 0!important;
+  }
+  .contact{ font-size: .75rem; }
+  .fa-phone-square{font-size: 15px;}
+}

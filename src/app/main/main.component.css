@@ -9,3 +9,8 @@ ul.card-text{
 .kalai{
   width: 60%;
 }
+@media (min-width:1000px) and (max-width:1024px){
+  .container{
+    padding: 0;
+  }
+}
