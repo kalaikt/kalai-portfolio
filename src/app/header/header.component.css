@@ -45,8 +45,8 @@ header{color: gray; padding: 2rem;}
 }
 .role h1{
   color: #42AB9E;
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 3rem;
   margin-top: 60px;
 }
 #logo-kalai{color: #000; font-size: 2rem; text-transform: uppercase;border-bottom: 1px solid #42AB9E;line-height: 2rem;
@@ -85,5 +85,11 @@ header{padding-bottom:0; }
     font-size: 3rem;
     line-height: 3rem;
     margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .navbar-collapse {
+    margin-top: .8rem;
   }
 }

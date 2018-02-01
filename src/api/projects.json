@@ -15,7 +15,10 @@
     "image": "",
     "link": "",
     "isFreeLanceProject": false,
-    "period": "Oct 2017 - Till"
+    "period": "Oct 2017 - Till",
+    "client": "The Hartdford",
+    "company": "EGB Systems & Solutions Inc",
+    "location": "Hartdford, CT"
   },
   {
     "id": "20172",
@@ -41,7 +44,40 @@
     "image": "",
     "link": "",
     "isFreeLanceProject": false,
-    "period": "Mar 2017 - Sep 2017"
+    "period": "Mar 2017 - Sep 2017",
+    "client": "Carnival",
+    "company": "Capgemini America Inc",
+    "location": "Hartdford, CT"
+  },
+  {
+    "id":"20163",
+    "title": "MyPower – Customer Portal",
+    "description": "Redesign existing customer portal and applying new technologies. We have many applications which will accessible based on customer profile. The applications are TILs, O&M, Outages and etc. Dashboard will be loaded based on the user profile. Dashboard contains many applications cards which are loading by user profile setup and application should be accessible based on the user privileges.",
+    "role": "Senior UI Developer",
+    "responsibilities": [
+      "Worked closely with clients to define business objectives, project scope, solution space and design/development approach for various knowledge applications.",
+      "Designed Frontend with in object oriented JavaScript Framework using Angular.JS, Polymer.JS, Node.JS, Grunt and Power.",
+      "Worked one-on-one with client to develop layouts and implemented into a final interface design with Angular.JS, Polymer.JS & RESTful Web Service using Spring Boot.",
+      "Used advanced level of HTML5, JavaScript, CSS3 and pure CSS table less layout, Responsive Design and applied Predix 2.0 standards.",
+      "Generated server side PL/SQL scripts for data manipulation and validation and materialized views for remote instances.",
+      "Developed PL/SQL triggers and master tables for automatic creation of primary keys.",
+      "Created PL/SQL Stored Procedures, Functions and Packages for moving the data from staging area to data mart.",
+      "Produced content pages with CSS3 layout and style markup presentations and also used JavaScript methods and properties.",
+      "Created CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, table, Pseudo classes, Pseudo elements and CSS3 Border, CSS3 Background, CSS3 Transitions.",
+      "Used JSON for data interchange, as it's faster and can be parsed using JavaScript.",
+      "Extensively worked with Predix 2.0, AngularJS and PolymerJS.",
+      "Worked Web Service integration with Angular service with RESTful web service.",
+      "Created logical and physical data models putting to practice, concepts of normalization and RDBMS.",
+      "Worked with the team of architects and back-end Developers to gather requirements and enhance the application functionality and add new features."
+    ],
+    "env": "Predix 2.0, Polymer.JS, Angular.JS 1.4, jQuery, RESTful, HTML 5, JavaScript, JSON, CSS 3, Java, Apache Tomcat, J2ee, Spring, Node.JS, Grunt, Bower, NPM, PostgreSQL, Windows, Eclipse, JIRA, Notepad++, SQL Developer, GIT",
+    "image": "",
+    "link": "",
+    "isFreeLanceProject": false,
+    "period": "Jul 2016 – Dec 2016",
+    "client": "GE Power & Water",
+    "company": "Capgemini America Inc",
+    "location": "Atlanta, GA"
   },
   {
     "id":"",
@@ -53,6 +89,9 @@
     "image": "",
     "link": "",
     "isFreeLanceProject": false,
-    "period": ""
+    "period": "",
+    "client": "",
+    "company": "Capgemini America Inc",
+    "location": ""
   }
 ]
