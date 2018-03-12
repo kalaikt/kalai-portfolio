@@ -1,14 +1,14 @@
 <div class="container mt-80">
     <!-- Portfolio Section -->
-    <h2>Recent Projects</h2>
+    <h2>Projects</h2>
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let project of projects">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="{{project.image || 'http://placehold.it/700x400'}}" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">{{project.title}}</a>
+              <a target="_blank" href="{{project.link || '#'}}">{{project.title}}</a>
             </h4>
             <p class="card-text">{{ (project.description.length>6)? (project.description | slice:0:200)+'...':(project.description) }}</p>
           </div>

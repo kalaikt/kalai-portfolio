@@ -7,3 +7,6 @@ body{
 .mt-80{
   margin-top: 60px;
 }
+
+a{color: #42AB9E;}
+a:hover{color: #42AB9E; text-decoration: none;}

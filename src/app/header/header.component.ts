@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
   public menus = [
         { text: 'About me',   path: 'about-me' },
+        { text: 'Education',   path: 'education' },
         { text: 'Projects',   path: 'projects' },
         { text: 'Testimonial',   path: 'testimonial' },
         { text: 'Contact me',   path: 'contact-me' }

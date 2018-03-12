@@ -10,6 +10,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { DataService } from './data.service';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DataService } from './data.service';
     MainComponent,
     ProjectsComponent,
     TestimonialComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,6 +28,7 @@ import { DataService } from './data.service';
     RouterModule.forRoot([
       { path :'', component: MainComponent },
       { path :'about-me', component: MainComponent },
+      { path :'education', component: EducationComponent },
       { path :'projects', component: ProjectsComponent },
       { path :'testimonial', component: TestimonialComponent },
       { path :'contact-me', redirectTo: '' },
