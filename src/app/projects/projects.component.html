@@ -4,13 +4,18 @@
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let project of projects">
-        <div class="card h-100">
+        <div class="card h-100 project-item">
           <a href="#"><img class="card-img-top" src="{{project.image || 'http://placehold.it/700x400'}}" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a target="_blank" href="{{project.link || '#'}}">{{project.title}}</a>
             </h4>
             <p class="card-text">{{ (project.description.length>6)? (project.description | slice:0:200)+'...':(project.description) }}</p>
+          </div>
+          <div class="overlay">
+            <div class="text">
+              <strong>Environment:</strong> {{project.env}}
+            </div>
           </div>
         </div>
       </div>

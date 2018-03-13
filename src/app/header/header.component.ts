@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit {
         { text: 'About me',   path: 'about-me' },
         { text: 'Education',   path: 'education' },
         { text: 'Projects',   path: 'projects' },
-        { text: 'Testimonial',   path: 'testimonial' },
-        { text: 'Contact me',   path: 'contact-me' }
+        { text: 'Awards',   path: 'awards' },
+        { text: 'Testimonial',   path: 'testimonial' }
       ];
   public name = 'Kalaikumar';
   public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
