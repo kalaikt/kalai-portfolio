@@ -11,7 +11,7 @@
          "AngularJS 1.3 framework environment setup for UI development",
          "Developing and modifing angular directives and html views, controlers, models using HTML 5, CSS 3, JSON, AngularJS and JavaScript"
       ],
-      "env":"AngularJS, HTML 5, CSS 3, JavaScript, Node.JS, NPM, Java, Apache Tomcat, RESTful Web Service, Atom, Postman, Chrome Developer Tool, SQL Developer, GIT, TortoiseSVN",
+      "env":"AngularJS, HTML 5, CSS 3, JavaScript, Node.JS, NPM, Java, Apache Tomcat, RESTful Web Service, Atom, Postman, Rally , SQL Developer, GIT, TortoiseSVN",
       "image":"assets/img/stp.jpg",
       "link":"https://service.thehartford.com",
       "isFreeLanceProject":false,
@@ -425,6 +425,353 @@
       "link":"http://www.takesolutions.com/",
       "isFreeLanceProject":false,
       "period":"3 Months",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201515",
+      "title":"PromDressUniverse.com",
+      "description":"PromDressUniverse.com is an online shopping website. This application developed using Joomla CMS with Virtuemart and intergraded with PayPal payment gateway. This application contains four modules such as shopping, gateway integration, shipping and admin modules.",
+      "role":"Technical Manager",
+      "responsibilities":[
+        	"Involved in the Project implementation, coding and documentation.",
+          "Involved in the PayPal gateway integration.",
+	        "Involved in the Virtuemart component customization.",
+	        "Handling client communication and team leading.",
+	        "Worked on the SEO and URL re-writing, Banners/Advertisement Management."
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Joomla 1.5",
+      "image":"",
+      "link":"",
+      "isFreeLanceProject":false,
+      "period":"SEP 2009 – FEB 2010",
+      "client":"Prom Dress Universe Inc",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201517",
+      "title":"ReadersFavorite.com",
+      "description":"Readers Favorite was developed to readers with quality books, and to help authors with honest reviews of their work and to assist them in obtaining more recognition and exposure through a respected Book Contest.",
+      "role":"Technical Manager",
+      "responsibilities":[
+           "Involved in Project implementation, coding and documentation.",
+	         "Involved PayPal gateway integration.",
+           "Handling client communication and team leading.",
+           "Worked on the SEO and URL re-writing, Banners/Advertisement Management."
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Joomla 1.5",
+      "image":"",
+      "link":"",
+      "isFreeLanceProject":false,
+      "period":"SEP 2009 – FEB 2010",
+      "client":"Readers Favorite Inc",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201518",
+      "title":"Model Body",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MySql5.0, JavaScript, HTML, CSS, Ajax, Joomla 1.5",
+      "image":"",
+      "link":"http://www.modelbody.us/web/",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201519",
+      "title":"Restaurant Road Runner",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS",
+      "image":"",
+      "link":"http://restaurantroadrunner.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201520",
+      "title":"Bay LTD",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5, MSSQL, JavaScript, HTML, CSS",
+      "image":"",
+      "link":"http://bayltd.com/",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201521",
+      "title":"EGB Systems & Solutions",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Joomla 1.5",
+      "image":"",
+      "link":"http://www.egbsystems.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201522",
+      "title":"Compete Around the World",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Joomla 1.3",
+      "image":"",
+      "link":"http://www.competearoundtheworld.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201523",
+      "title":"Seller Wise",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, Java Script, HTML, CSS, Ajax, eBay API, MVC Framework",
+      "image":"",
+      "link":"http://www.sellerwise.net",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201524",
+      "title":"CARSTAR",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":".NET, MS SQL, JavaScript,",
+      "image":"",
+      "link":"http://www.carstar.com/",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201525",
+      "title":"KSCOM",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript,   HTML, CSS, Ajax, Drupal",
+      "image":"",
+      "link":"http://www.kansascommerce.com/",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201526",
+      "title":"Start Path",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, CSS, HTML, Ajax, Drupal",
+      "image":"",
+      "link":"http://www.startpath.com/",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201527",
+      "title":"People U",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Smarty",
+      "image":"",
+      "link":"http://www.peopleu.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201528",
+      "title":"Cell Wood",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Smarty",
+      "image":"",
+      "link":"http://cellwood.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201529",
+      "title":"Parts Hotlines",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, CSS, HTML, Ajax, Smarty",
+      "image":"",
+      "link":"http://www.partshotlines.com ",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201530",
+      "title":"Mr Cycle Parts",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, CSS, HTML, Ajax, Smarty",
+      "image":"",
+      "link":"http://mrcycleparts.com ",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201531",
+      "title":"Learn",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Smarty",
+      "image":"",
+      "link":"http://www.poweredbyu.com/products/learn ",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201532",
+      "title":"Motion U",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Smarty, MVC Framework",
+      "image":"",
+      "link":"http://www.motionuu.com ",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201533",
+      "title":"Cell Wood",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, HTML, CSS, Ajax, Smarty",
+      "image":"",
+      "link":"http://cellwood.com",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201534",
+      "title":"Parts Hotlines",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, CSS, HTML, Ajax, Smarty",
+      "image":"",
+      "link":"http://www.partshotlines.com ",
+      "isFreeLanceProject":false,
+      "period":"",
+      "client":"",
+      "company":"",
+      "location":""
+   },
+   {
+      "id":"201535",
+      "title":"Mr Cycle Parts",
+      "description":"",
+      "role":"",
+      "responsibilities":[
+
+      ],
+      "env":"PHP5.0, MYSQL5.0, JavaScript, CSS, HTML, Ajax, Smarty",
+      "image":"",
+      "link":"http://mrcycleparts.com",
+      "isFreeLanceProject":false,
+      "period":"",
       "client":"",
       "company":"",
       "location":""

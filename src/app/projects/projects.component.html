@@ -14,7 +14,19 @@
           </div>
           <div class="overlay">
             <div class="text">
-              <strong>Environment:</strong> {{project.env}}
+              <div class="project-info">
+                <strong>Role:</strong> {{project.role}}<br/>
+                <strong>Period:</strong> {{project.period}}<br/>
+                <strong>Client:</strong> {{project.client}}, {{project.location}}<br/>
+                <strong>Company:</strong> {{project.company}}<br/>
+                <strong>Environment:</strong> {{project.env}}<br/>
+              </div>
+              <div>
+                  <strong>Responsibilities:</strong>
+                  <ul class="responsibilities">
+                    <li *ngFor="let res of project.responsibilities">{{res}}</li>
+                  </ul>
+              </div>
             </div>
           </div>
         </div>
