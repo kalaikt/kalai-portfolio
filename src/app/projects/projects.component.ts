@@ -16,12 +16,24 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.dataService.getProjects()
     .subscribe((res: Response)  => {
-      this.projects = res.json();
+      let company = '';
+      let idx = 0;
+      let projects = [];
+      res.json().forEach((project) =>{
+        if(company != project.company){
+            idx++;
+            company = project.company;
+            projects[idx-1] = {"companyName": company, "projects":[] };
+        }
+        projects[idx-1].projects.push(project);
+      });
+
+      this.projects = projects;
     });
     setTimeout(
       function(){
-        $('.project-item').each(function(){
-          var height = $(this).height() - $(this).find('.project-info').height();
+        $('.project-item').mouseover(function(){
+          let height = $(this).height() - $(this).find('.project-info').height();
           $(this).find('.responsibilities').height(height - 60);
         });
       },
