@@ -2,7 +2,7 @@ html, div, body, header, nav, ul, h1, li{margin: 0; padding: 0;}
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .mt-80{
   margin-top: 60px;

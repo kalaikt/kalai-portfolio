@@ -1,6 +1,12 @@
 .project-item{
   position: relative;
 }
+.project-item .card-body{
+  text-align: justify;
+}
+.card-header h5{
+  overflow: hidden;
+}
 
 .overlay {
   position: absolute;
@@ -41,4 +47,29 @@
   text-decoration: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+.row{margin: 15px;}
+.image-col{
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.response{
+  margin-left: 1rem;
+  text-align: justify;
+}
+.response .responsibilities{
+  padding-left: 1rem;
+}
+.project-detail{
+  text-align: justify;
+}
+.project-detail strong, .response strong{
+  color: #42AB9E;
+}
+#accordion button{
+  padding: 0;
+}
+.padding-0{
+  padding: 0;
 }
