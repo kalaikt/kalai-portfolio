@@ -11,6 +11,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { DataService } from './data.service';
 import { EducationComponent } from './education/education.component';
+import { AwardsComponent } from './awards/awards.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { EducationComponent } from './education/education.component';
     ProjectsComponent,
     TestimonialComponent,
     EducationComponent,
+    AwardsComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ import { EducationComponent } from './education/education.component';
       { path :'education', component: EducationComponent },
       { path :'projects', component: ProjectsComponent },
       { path :'testimonial', component: TestimonialComponent },
+      { path :'awards', component: AwardsComponent },
       { path :'contact-me', redirectTo: '' },
     ])
   ],
