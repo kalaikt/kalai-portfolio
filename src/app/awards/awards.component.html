@@ -1,3 +1,19 @@
-<p>
-  awards works!
-</p>
+<div class="container mt-80 mb">
+  <div class="row">
+    <div id="awards" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item " [ngClass]="{'active': i==0}" *ngFor="let award of awards; let i = index;">
+          <img class="d-block w-100" alt="" src="{{award}}">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#awards" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#awards" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
