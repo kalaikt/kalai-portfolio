@@ -12,7 +12,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item" *ngFor="let menu of menus">
+            <li class="nav-item" *ngFor="let menu of menus" data-toggle="collapse" data-target="#navbarResponsive">
               <a class="nav-link" routerLinkActive="active" [routerLink]="menu.path">{{menu.text}}</a>
             </li>
           </ul>
