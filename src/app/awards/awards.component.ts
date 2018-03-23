@@ -17,7 +17,6 @@ export class AwardsComponent implements OnInit {
     .subscribe((res: Response)  => {
       this.awards = res.json();
     });
-    $('.carousel').carousel();
   }
 
 }
