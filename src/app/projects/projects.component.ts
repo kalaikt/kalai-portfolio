@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
       function(){
         $('.project-item').mouseover(function(){
           let height = $(this).height() - $(this).find('.project-info').height();
-          
+
           if($(this).data('launchbtn'))
             $(this).find('.responsibilities').height(height - 110);
           else

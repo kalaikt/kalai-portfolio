@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { DataService } from './data.service';
 import { EducationComponent } from './education/education.component';
 import { AwardsComponent } from './awards/awards.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -27,14 +28,14 @@ import { AwardsComponent } from './awards/awards.component';
   imports: [
     BrowserModule,
     HttpModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot([
-      { path :'', component: MainComponent },
-      { path :'about-me', component: MainComponent },
-      { path :'education', component: EducationComponent },
-      { path :'projects', component: ProjectsComponent },
-      { path :'testimonial', component: TestimonialComponent },
-      { path :'awards', component: AwardsComponent },
-      { path :'contact-me', redirectTo: '' },
+      { path :'', component: MainComponent, data: { animation: '' } },
+      { path :'about-me', component: MainComponent, data: { animation: 'about-me' } },
+      { path :'education', component: EducationComponent, data: { animation: 'education' }},
+      { path :'projects', component: ProjectsComponent, data: { animation: 'projects' } },
+      { path :'testimonial', component: TestimonialComponent, data: { animation: 'testimonial' } },
+      { path :'awards', component: AwardsComponent, data: { animation: 'awards' } }
     ])
   ],
   providers: [DataService],
