@@ -12,13 +12,13 @@ export class HeaderComponent implements OnInit {
         { text: 'Education',   path: 'education' },
         { text: 'Projects',   path: 'projects' },
         { text: 'Awards',   path: 'awards' },
-        { text: 'Testimonial',   path: 'testimonial' }
+      //  { text: 'Testimonial',   path: 'testimonial' }
       ];
   public name = 'Kalaikumar';
   public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
 
   public showRole;
-
+  public roles = 'UI/Front-end Developer, Oracle PL/SQL Developer and UI Architect.';
 
   constructor(private router: Router) {
     router.events.subscribe((url:any) => {

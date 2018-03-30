@@ -12,6 +12,19 @@ ul.card-text{
 .welcome-txt{
   font-size: 1.2rem;
 }
+
+.front-end::before{
+  content: "\f121";
+}
+.server-side::before{
+  content: "{}";
+}
+.backEnd::before{
+  content: "\f1c0";
+}
+.tools::before{
+  content: "\f0ad";
+}
 @media (min-width:1000px) and (max-width:1024px){
   .container{
     padding: 0;

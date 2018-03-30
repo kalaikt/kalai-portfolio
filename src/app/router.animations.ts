@@ -1,35 +1,13 @@
 import {trigger, animate, style, group, animateChild, query, stagger, transition} from '@angular/animations';
 
-export const fadeInAnimation = trigger('fadeInAnimation', [
-      transition('* <=> *', [
-        // Initial state of new route
-        query(':enter',
-          style({
-            position: 'fixed',
-            width:'100%',
-            transform: 'translateX(-100%)'
-          }),
-          {optional:true}),
+export const fadeInAnimation =     trigger('fadeInAnimation', [
+        // route 'enter' transition
+        transition(':enter', [
 
-        // move page off screen right on leave
-        query(':leave',
-          animate('500ms ease',
-            style({
-              position: 'fixed',
-              width:'100%',
-              transform: 'translateX(100%)'
-            })
-          ),
-        {optional:true}),
+            // styles at start of transition
+            style({ opacity: 0 }),
 
-        // move page in screen from left to right
-        query(':enter',
-          animate('500ms ease',
-            style({
-              opacity: 1,
-              transform: 'translateX(0%)'
-            })
-          ),
-        {optional:true}),
-      ])
-    ])
+            // animation and styles at end of transition
+            animate('.3s', style({ opacity: 1 }))
+        ]),
+    ]);

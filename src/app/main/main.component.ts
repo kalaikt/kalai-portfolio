@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { DataService } from '../data.service';
+import { fadeInAnimation } from '../router.animations';
 
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  styleUrls: ['./main.component.css'],
+  animations: [fadeInAnimation],
+  host: { '[@fadeInAnimation]': '' }
 })
 
 export class MainComponent implements OnInit {
@@ -22,7 +25,7 @@ export class MainComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.dataService.getSkils()
+    this.dataService.getSkills()
       .subscribe((res: Response)  => {
         this.skills = res.json();
       });

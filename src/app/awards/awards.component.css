@@ -7,3 +7,6 @@
 .carousel{
   margin: 0 auto;
 }
+.awards::before{
+  content: "\f091";
+}

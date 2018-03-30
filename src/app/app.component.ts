@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { fadeInAnimation } from './router.animations';
 import * as $ from 'jquery';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  animations: [fadeInAnimation]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Kalaikumar Thangasamy';

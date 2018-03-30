@@ -12,7 +12,7 @@ export class DataService{
 
   }
 
-  getSkils(){
+  getSkills(){
     return this.http.get('./api/skills.json');
   }
 

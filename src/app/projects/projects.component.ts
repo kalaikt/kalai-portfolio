@@ -3,11 +3,14 @@ import { Http, Response } from '@angular/http';
 import { DataService } from '../data.service';
 import * as $ from 'jquery';
 import { DatePipe } from '@angular/common';
+import { fadeInAnimation } from '../router.animations';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
+  animations: [fadeInAnimation],
+  host: { '[@fadeInAnimation]': '' }
 })
 export class ProjectsComponent implements OnInit {
   public projects = [];
@@ -17,18 +20,6 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.dataService.getProjects()
     .subscribe((res: Response)  => {
-      /*let company = '';
-      let idx = 0;
-      let projects = [];
-      res.json().forEach((project) =>{
-        if(company != project.company){
-            idx++;
-            company = project.company;
-            projects[idx-1] = {"companyName": company, "projects":[] };
-        }
-        projects[idx-1].projects.push(project);
-      });*/
-
       this.projects = res.json();
     });
     setTimeout(
