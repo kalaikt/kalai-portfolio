@@ -29,4 +29,11 @@ ul.card-text{
   .container{
     padding: 0;
   }
+  .col-sm-3{width: 50%;}
+}
+@media (min-width:576px) and (max-width:1024px){
+  .col-sm-3{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
 }

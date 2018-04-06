@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -28,6 +29,13 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    setTimeout(
+      function(){
+        $('#navbarResponsive li').click(function(){
+          let width = $(document).width();
+          console.log(width);
+          if(width < 1024) $('.navbar-toggler').trigger('click');
+        });
+      }, 500);
   }
 }

@@ -29,4 +29,7 @@ footer i{
   }
   .contact{ font-size: .75rem; }
   .fa-phone-square{font-size: 15px;}
+  footer i{
+    margin-right: 0;
+  }
 }
