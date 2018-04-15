@@ -19,6 +19,9 @@ export class DataService{
   getProjects(){
     return this.http.get('./api/projects.json');
   }
+  getInnovations(){
+    return this.http.get('./api/innovations.json');
+  }
 
   getAwards(){
     return this.http.get('./api/awards.json');

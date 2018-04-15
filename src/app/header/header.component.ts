@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
         { text: 'Education',   path: 'education' },
         { text: 'Projects',   path: 'projects' },
         { text: 'Awards',   path: 'awards' },
+        { text: 'Innovation',   path: 'innovation' },
       //  { text: 'Testimonial',   path: 'testimonial' }
       ];
   public name = 'Kalaikumar';

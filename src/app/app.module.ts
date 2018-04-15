@@ -13,6 +13,7 @@ import { DataService } from './data.service';
 import { EducationComponent } from './education/education.component';
 import { AwardsComponent } from './awards/awards.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InnovationComponent } from './innovation/innovation.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TestimonialComponent,
     EducationComponent,
     AwardsComponent,
+    InnovationComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       { path :'education', component: EducationComponent, data: { animation: 'education' }},
       { path :'projects', component: ProjectsComponent, data: { animation: 'projects' } },
       { path :'testimonial', component: TestimonialComponent, data: { animation: 'testimonial' } },
-      { path :'awards', component: AwardsComponent, data: { animation: 'awards' } }
+      { path :'awards', component: AwardsComponent, data: { animation: 'awards' } },
+      { path :'innovation', component: InnovationComponent, data: { animation: 'innovation' } }
     ])
   ],
   providers: [DataService],

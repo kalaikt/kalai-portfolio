@@ -1,0 +1,11 @@
+[
+   {
+      "title":"Tamil & English Keyboard",
+      "description":"Tamil & English Keyboard is an Android app. Primary keypad is Tamil and english keypad as a secondary option in the same keyboard.",
+      "env":"Android Studio, Java, GIT, Windows 10",
+      "image":"assets/img/tamil-keypad.jpg",
+      "link":"https://play.google.com/store/apps/details?id=com.wassysems.tamilkeyboard&hl=en",
+      "isAndroidApp":true,
+      "period":"Apr 2017"
+   }
+]
