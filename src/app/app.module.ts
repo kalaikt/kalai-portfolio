@@ -42,7 +42,7 @@ import { FilterPipe} from './filter.pipe';
       { path :'testimonial', component: TestimonialComponent, data: { animation: 'testimonial' } },
       { path :'awards', component: AwardsComponent, data: { animation: 'awards' } },
       { path :'innovation', component: InnovationComponent, data: { animation: 'innovation' } }
-    ])
+    ], { useHash: true })
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

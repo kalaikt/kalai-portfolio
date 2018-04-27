@@ -152,7 +152,7 @@ AppModule = __decorate([
                 { path: 'testimonial', component: __WEBPACK_IMPORTED_MODULE_8__testimonial_testimonial_component__["a" /* TestimonialComponent */], data: { animation: 'testimonial' } },
                 { path: 'awards', component: __WEBPACK_IMPORTED_MODULE_13__awards_awards_component__["a" /* AwardsComponent */], data: { animation: 'awards' } },
                 { path: 'innovation', component: __WEBPACK_IMPORTED_MODULE_15__innovation_innovation_component__["a" /* InnovationComponent */], data: { animation: 'innovation' } }
-            ])
+            ], { useHash: true })
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_11__data_service__["a" /* DataService */]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
