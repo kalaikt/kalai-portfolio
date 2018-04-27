@@ -1,85 +1,100 @@
 <div class="container mt-80 mb">
     <!-- Portfolio Section -->
-    <h2>Projects</h2>
-    <div id="accordion">
-      <div class="card" *ngFor="let company of projects; let i = index;">
-        <div class="card-header" id="heading{{i}}">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" [attr.data-target]="'#collapse'+i" [attr.aria-expanded]="!i" [attr.aria-controls]="'collapse'+i">
-              {{company.companyName}} ({{(company.startDate | date:"MMM yyyy") + ' - ' + ((company.endDate | date:"MMM yyyy") || 'Present')}}<span *ngIf="company.aStartDate"> & {{(company.aStartDate | date:"MMM yyyy") + ' - ' + (company.aEndDate | date:"MMM yyyy")}}</span>)
-            </button>
-          </h5>
+
+    <div class="row m-0">
+      <div class="col m-0 p-0">
+        <h2>Projects</h2>
+      </div>
+      <div class="col m-0 p-0">
+        <div class="input-group">
+          <input type="text" [(ngModel)]="searchText" class="form-control" placeholder="Search by Technology">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button">Go!</button>
+          </span>
         </div>
-        <div id="collapse{{i}}" class="collapse" [ngClass]="{'show':!i}" [attr.aria-labelledby]="'heading'+i" data-parent="#accordion">
-            <div class="container" *ngIf="company.projects.length == 1">
-              <div class="row" *ngFor="let project of company.projects">
-                <div class="portfolio-item">
-                  <div class="card h-100" [attr.data-launchBtn]="project.link.length">
-                    <div class="row">
-                    <div class="col-sm-6 pull-left">
-                      <img class="card-img-top image-col" src="{{project.image || 'http://placehold.it/700x400'}}" alt="">
-                      <div class="card-body padding-0">
-                        <h4 class="card-title">
-                          <a target="_blank" href="{{project.link || '#'}}">{{project.title}}</a>
-                        </h4>
-                        <div class="card-text">
-                          <p>{{project.description}}</p>
-                          <div class="project-info">
-                            <div *ngIf="project.role"><strong>Role:</strong> {{project.role}}</div>
-                            <div *ngIf="project.period"><strong>Period:</strong> {{project.period}}</div>
-                            <div *ngIf="project.client"><strong>Client:</strong> {{project.client}}, {{project.location}}</div>
-                            <div *ngIf="project.company"><strong>Company:</strong> {{project.company}}</div>
-                            <div *ngIf="project.env"><strong>Environment:</strong> {{project.env}}</div>
+      </div>
+    </div>
+    <div id="accordion">
+      <div *ngFor="let company of projects; let i = index;">
+        <div class="card" *ngIf="(company.projects | filter:searchText).length">
+          <div class="card-header" id="heading{{i}}">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" [attr.data-target]="'#collapse'+i" [attr.aria-expanded]="!i" [attr.aria-controls]="'collapse'+i">
+                {{company.companyName}} ({{(company.startDate | date:"MMM yyyy") + ' - ' + ((company.endDate | date:"MMM yyyy") || 'Present')}}<span *ngIf="company.aStartDate"> & {{(company.aStartDate | date:"MMM yyyy") + ' - ' + (company.aEndDate | date:"MMM yyyy")}}</span>)
+              </button>
+            </h5>
+          </div>
+          <div id="collapse{{i}}" class="collapse" [ngClass]="{'show':!i}" [attr.aria-labelledby]="'heading'+i" data-parent="#accordion">
+              <div class="container" *ngIf="company.projects.length == 1">
+                <div class="row" *ngFor="let project of company.projects | filter:searchText">
+                  <div class="portfolio-item">
+                    <div class="card h-100" [attr.data-launchBtn]="project.link.length">
+                      <div class="row">
+                      <div class="col-sm-6 pull-left">
+                        <img class="card-img-top image-col" src="{{project.image || 'http://placehold.it/700x400'}}" alt="">
+                        <div class="card-body padding-0">
+                          <h4 class="card-title">
+                            <a target="_blank" href="{{project.link || '#'}}">{{project.title}}</a>
+                          </h4>
+                          <div class="card-text">
+                            <p>{{project.description}}</p>
+                            <div class="project-info">
+                              <div *ngIf="project.role"><strong>Role:</strong> {{project.role}}</div>
+                              <div *ngIf="project.period"><strong>Period:</strong> {{project.period}}</div>
+                              <div *ngIf="project.client"><strong>Client:</strong> {{project.client}}, {{project.location}}</div>
+                              <div *ngIf="project.company"><strong>Company:</strong> {{project.company}}</div>
+                              <div *ngIf="project.env"><strong>Environment:</strong> {{project.env}}</div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-sm-6 pull-left">
-                      <div *ngIf="project.responsibilities.length">
-                          <strong>Responsibilities:</strong>
-                          <ul class="responsibilities pl-3">
-                            <li *ngFor="let res of project.responsibilities">{{res}}</li>
-                          </ul>
+                      <div class="col-sm-6 pull-left">
+                        <div *ngIf="project.responsibilities.length">
+                            <strong>Responsibilities:</strong>
+                            <ul class="responsibilities pl-3">
+                              <li *ngFor="let res of project.responsibilities">{{res}}</li>
+                            </ul>
+                        </div>
+                        <div *ngIf="project.link.length" class="text-center mt-3"><a class="btn btn-primary" target="_blank" href="{{project.link}}">Launch</a></div>
                       </div>
-                      <div *ngIf="project.link.length" class="text-center mt-3"><a class="btn btn-primary" target="_blank" href="{{project.link}}">Launch</a></div>
-                    </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row" *ngIf="company.projects.length > 1">
-              <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let project of company.projects">
-                <div class="card h-100 project-item" [attr.data-launchBtn]="project.link.length">
-                  <img class="card-img-top" src="{{project.image || 'http://placehold.it/700x400'}}" alt="">
-                  <div class="card-body">
-                    <h4 class="card-title">
-                      {{project.title}}
-                    </h4>
-                    <p class="card-text">{{ (project.description.length > 200)? (project.description | slice:0:200)+'...':(project.description) }}</p>
-                  </div>
-                  <div class="overlay">
-                    <div class="text">
-                      <div class="project-info">
-                        <div *ngIf="project.role"><strong>Role:</strong> {{project.role}}</div>
-                        <div *ngIf="project.period"><strong>Period:</strong> {{project.period}}</div>
-                        <div *ngIf="project.client"><strong>Client:</strong> {{project.client}}, {{project.location}}</div>
-                        <div *ngIf="project.company"><strong>Company:</strong> {{project.company}}</div>
-                        <div *ngIf="project.env"><strong>Environment:</strong> {{project.env}}</div>
+              <div class="row" *ngIf="company.projects.length > 1">
+                <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let project of company.projects | filter:searchText">
+                  <div class="card h-100 project-item" [attr.data-launchBtn]="project.link.length">
+                    <img class="card-img-top" src="{{project.image || 'http://placehold.it/700x400'}}" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        {{project.title}}
+                      </h4>
+                      <p class="card-text">{{ (project.description.length > 200)? (project.description | slice:0:200)+'...':(project.description) }}</p>
+                    </div>
+                    <div class="overlay">
+                      <div class="text">
+                        <div class="project-info">
+                          <div *ngIf="project.role"><strong>Role:</strong> {{project.role}}</div>
+                          <div *ngIf="project.period"><strong>Period:</strong> {{project.period}}</div>
+                          <div *ngIf="project.client"><strong>Client:</strong> {{project.client}}, {{project.location}}</div>
+                          <div *ngIf="project.company"><strong>Company:</strong> {{project.company}}</div>
+                          <div *ngIf="project.env"><strong>Environment:</strong> {{project.env}}</div>
+                        </div>
+                        <div *ngIf="project.responsibilities.length">
+                            <strong>Responsibilities:</strong>
+                            <ul class="responsibilities">
+                              <li *ngFor="let res of project.responsibilities">{{res}}</li>
+                            </ul>
+                        </div>
+                        <div *ngIf="project.link.length" class="text-center"><a class="btn btn-primary" target="_blank" href="{{project.link}}">Launch</a></div>
                       </div>
-                      <div *ngIf="project.responsibilities.length">
-                          <strong>Responsibilities:</strong>
-                          <ul class="responsibilities">
-                            <li *ngFor="let res of project.responsibilities">{{res}}</li>
-                          </ul>
-                      </div>
-                      <div *ngIf="project.link.length" class="text-center"><a class="btn btn-primary" target="_blank" href="{{project.link}}">Launch</a></div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+          </div>
         </div>
       </div>
     </div>

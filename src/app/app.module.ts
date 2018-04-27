@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -14,6 +14,7 @@ import { EducationComponent } from './education/education.component';
 import { AwardsComponent } from './awards/awards.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InnovationComponent } from './innovation/innovation.component';
+import { FilterPipe} from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,12 @@ import { InnovationComponent } from './innovation/innovation.component';
     EducationComponent,
     AwardsComponent,
     InnovationComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
       { path :'', component: MainComponent, data: { animation: '' } },

@@ -73,3 +73,7 @@
 .padding-0{
   padding: 0;
 }
+.input-group{
+  width: 250px;
+  float: right;
+}

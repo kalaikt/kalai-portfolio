@@ -17,7 +17,7 @@ export class MainComponent implements OnInit {
   public welcome = 'Welcome to Kalai\'s Profile';
   frontEndTile = 'Front-End';
   backEndTile = 'Back-End';
-  serverSideTitle = 'Server Side';
+  serverSideTitle = 'Server Side/CMS';
   toolsTile = 'Tools';
 
   constructor(private dataService: DataService, private http: Http) {

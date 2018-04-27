@@ -6,6 +6,9 @@ footer i{
   color: #42AB9E;
   margin-right: 10px;
 }
+.white{
+  color: #fff;
+}
 .social-icon{
   text-align: right;
   font-size: 2rem;
