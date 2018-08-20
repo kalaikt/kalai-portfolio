@@ -20,7 +20,7 @@
           <div class="card-header" id="heading{{i}}">
             <h5 class="mb-0">
               <button class="btn btn-link" data-toggle="collapse" [attr.data-target]="'#collapse'+i" [attr.aria-expanded]="!i" [attr.aria-controls]="'collapse'+i">
-                {{company.companyName}} ({{(company.startDate | date:"MMM yyyy") + ' - ' + ((company.endDate | date:"MMM yyyy") || 'Present')}}<span *ngIf="company.aStartDate"> & {{(company.aStartDate | date:"MMM yyyy") + ' - ' + (company.aEndDate | date:"MMM yyyy")}}</span>)
+                {{company.companyName}} <span *ngIf="company.startDate">({{(company.startDate | date:"MMM yyyy") + ' - ' + ((company.endDate | date:"MMM yyyy") || 'Present')}}<span *ngIf="company.aStartDate"> & {{(company.aStartDate | date:"MMM yyyy") + ' - ' + (company.aEndDate | date:"MMM yyyy")}}</span>)</span>
               </button>
             </h5>
           </div>

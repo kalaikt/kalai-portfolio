@@ -1,15 +1,19 @@
 {
    "frontEnd":[
       "HTML 5, CSS 3(5Yrs)",
-      "JavaScript(9Yrs), Angular.JS(3Yrs)",
+      "JavaScript(9Yrs), Angular 2.0/6.0 (4Yrs)",
       "React.JS, Polymer.JS(1Yr)",
       "Ext.JS, Require.JS(1Yrs)",
       "Bootstrap(5Yrs)",
       "LESS/SASS/SCSS(1Yr)",
       "Webpack/Grunt(3Yrs)",
-      "Babel, Bower"
+      "Babel, Bower",
+      "Jasmine, Mocha, Chai(3Yrs)"
    ],
    "serverSide":[
+      "Spring Boot(1Yr)",
+      "Java(1Yr)",
+      "JUnit, Sonarqube(1Yr)",
       "Node.JS(3Yrs)",
       "PHP(8Yrs)",
       "CakePHP(3Yrs)",
