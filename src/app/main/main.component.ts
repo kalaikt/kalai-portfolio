@@ -15,11 +15,11 @@ export class MainComponent implements OnInit {
 
   skills = {};
   public welcome = 'Welcome to Kalai\'s Profile';
-  frontEndTile = 'Front-End';
-  backEndTile = 'Back-End';
+  frontEndTile = 'User Interface';
+  backEndTile = 'DB/DB Tools';
   serverSideTitle = 'Server Side/CMS';
-  toolsTile = 'Tools';
-
+  toolsTile = 'IDE/Tools';
+  years = new Date().getFullYear() - 2004;
   constructor(private dataService: DataService, private http: Http) {
 
   }
@@ -28,6 +28,7 @@ export class MainComponent implements OnInit {
     this.dataService.getSkills()
       .subscribe((res: Response)  => {
         this.skills = res.json();
+        this.skills["welcomeMsg"] = this.skills["welcomeMsg"].replace("YEARS", this.years);
       });
   }
 }
