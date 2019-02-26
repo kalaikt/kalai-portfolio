@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
 
   public showRole;
-  public roles = 'UI/Front-end Developer, Oracle PL/SQL Developer and UI Architect.';
+  public roles = 'Sr. UI/Front-end Engineer and UI Architect';
 
   constructor(private router: Router) {
     router.events.subscribe((url:any) => {
