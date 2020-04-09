@@ -1,14 +1,14 @@
 {
    "frontEnd":[
-      "HTML 5, CSS 3(5Yrs)",
-      "JavaScript(9Yrs), Angular 1.X/2.0/6.0 (4Yrs)",
+      "JavaScript(9Yrs), Angular 1.X/7.0/8.0 (6Yrs)",
+      "HTML 5, CSS 3(6Yrs)",
       "React.JS, Polymer.JS(1Yr)",
       "Ext.JS, Require.JS(1Yrs)",
       "jQuery, Bootstrap(8Yrs)",
-      "LESS, SASS/SCSS(1Yr)",
+      "LESS/SASS/SCSS(3Yr)",
       "Webpack, Grunt(3Yrs)",
       "Babel, Bower",
-      "Jasmine, Mocha, Chai(3Yrs)"
+      "Jasmine, Mocha, Jest, Chai(3Yrs)"
    ],
    "serverSide":[
       "Spring Boot(1Yr)",
@@ -34,7 +34,7 @@
       "PeopleSoft(1Yr)"
    ],
    "tools":[
-      "GIT, TortoiseSVN(3Yrs)",
+      "GITHub, GitLab, TortoiseSVN(5Yrs)",
       "Bitbucket(1Yr)",
       "JIRA, Confluence(5Yrs)",
       "Really(3Yrs)",

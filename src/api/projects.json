@@ -5,6 +5,27 @@
       "endDate":"",
       "projects":[
          {
+            "id":"20201",
+            "title":"MyCigna.com",
+            "description":"Health insurance application which has many modules such as Policy Coverage’s, Prescriptions and Orders. iPhone and Android Native APP and responsive web application for mobile and desktop.",
+            "role":"Senior Frontend Consultant/Fullstack Developer",
+            "responsibilities":[
+               "Working closely with clients to define business objectives, project scope, solution space and design/development approach for various knowledge applications",
+               "Working in Application Design, Object Oriented Design, Development, Documentation, Testing, Maintenance and Agile/Scrum Project Management",
+               "Managing scrum meetings, backlog refinement, review and retrospective",
+               "Setting up Angular 7.0 framework for frontend development",
+               "Writing angular components using HTML 5, CSS 3, JSON, TypeScript and JavaScript"
+            ],
+            "env":"Angular 8.0, TypeScript, Jest, HTML 5, CSS 3, JavaScript, Node.JS, Yarn, Spring Boot, JBoss, JUnit, RESTful Web Service, Postman, Oracle PL/SQL, SQL Developer, GITLab",
+            "image":"assets/img/mycigna.png",
+            "link":"http://mycigna.com",
+            "isFreeLanceProject":false,
+            "period":"May 2019 - Mar 2020",
+            "client":"Cigna",
+            "company":"EGB Systems & Solutions Inc",
+            "location":"Windsor, CT"
+         },
+         {
             "id":"20181",
             "title":"Straight Through Process",
             "description":"Auto insurance application which have many modules such as Add/Replace/Delate vehicles, Auto coverage, Driver Assignment, Edit Coverage, Careate/Edit/Delete policy,  Edit Driver and ect.",
@@ -20,7 +41,7 @@
             "image":"assets/img/stp.jpg",
             "link":"https://service.thehartford.com",
             "isFreeLanceProject":false,
-            "period":"Oct 2017 - Till",
+            "period":"Oct 2017 - Feb 2019",
             "client":"The Hartdford",
             "company":"EGB Systems & Solutions Inc",
             "location":"Hartdford, CT"
