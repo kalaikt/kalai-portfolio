@@ -13,7 +13,8 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto" >
         <li class="nav-item" *ngFor="let menu of menus">
-          <a class="nav-link" routerLinkActive="active" [routerLink]="menu.path">{{menu.text}}</a>
+          <a class="nav-link" *ngIf="!menu.hardLink" routerLinkActive="active" [routerLink]="menu.path">{{menu.text}}</a>
+          <a class="nav-link" *ngIf="menu.hardLink" [href]="menu.path"><i class="fa fa-download"></i> {{menu.text}}</a>
         </li>
       </ul>
     </div>

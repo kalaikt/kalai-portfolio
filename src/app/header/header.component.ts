@@ -13,7 +13,8 @@ export class HeaderComponent implements OnInit {
         { text: 'Education',   path: 'education' },
         { text: 'Projects',   path: 'projects' },
         { text: 'Awards',   path: 'awards' },
-        { text: 'Innovation',   path: 'innovation' },
+        { text: 'Learning',   path: 'innovation' },
+        { text: 'Resume',   path: 'assets/Kalaikumar-Thangasamy_resume.docx', hardLink: true },
       //  { text: 'Testimonial',   path: 'testimonial' }
       ];
   public name = 'Kalaikumar';

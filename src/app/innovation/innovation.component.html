@@ -1,24 +1,56 @@
 <div class="container mt-80 mb">
-  <h2>Innovation</h2>
+  <h2>Learning</h2>
   <div class="row">
-    <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let innnovation of innovations">
+    <div
+      class="col-lg-4 col-sm-6 portfolio-item"
+      *ngFor="let innnovation of innovations"
+    >
       <div class="card h-100">
-        <a href="{{innnovation.link}}" target="_blank"><img class="card-img-top" src="{{innnovation.image || 'http://placehold.it/700x400'}}" alt=""></a>
+        <a
+          href="{{ innnovation.link }}"
+          *ngIf="innnovation.image"
+          target="_blank"
+          ><img
+            class="card-img-top"
+            src="{{ innnovation.image || 'http://placehold.it/700x400' }}"
+            alt=""
+        /></a>
         <div class="card-body">
           <h4 class="card-title">
-            {{innnovation.title}}
+            {{ innnovation.title }}
           </h4>
-          <p class="card-text">{{innnovation.description}}</p>
-          <div *ngIf="innnovation.env"><strong>Environment:</strong> {{innnovation.env}}</div>
-          <div *ngIf="innnovation.period"><strong>Date:</strong> {{innnovation.period}}</div>
-          <div class="text-center">
-            <a href="{{innnovation.link}}" target="_blank" *ngIf="innnovation.isAndroidApp">
-              <img width="100" src="assets/img/google-play-badge.png" alt="google-play-badge">
-            </a>
-            <a href="{{innnovation.link}}" class="btn btn-primary" target="_blank" *ngIf="!innnovation.isAndroidApp">
-              Launch
-            </a>
+          <p class="card-text">{{ innnovation.description }}</p>
+          <div *ngIf="innnovation.env">
+            <strong>Environment:</strong> {{ innnovation.env }}
+          </div>
+          <div *ngIf="innnovation.period">
+            <strong>Date:</strong> {{ innnovation.period }}
+          </div>
         </div>
+        <div class="card-footer text-right">
+          <!-- <a href="{{innnovation.link}}" class="btn btn-primary" target="_blank" *ngIf="!innnovation.isAndroidApp">
+            Launch
+          </a> -->
+
+          <a
+            href="{{ innnovation.link }}"
+            target="_blank"
+            *ngIf="innnovation.isAndroidApp"
+          >
+            <img
+              width="100"
+              src="assets/img/google-play-badge.png"
+              alt="google-play-badge"
+            />
+          </a>
+          <a
+            href="{{ innnovation.gitLink }}"
+            class="btn btn-primary"
+            target="_blank"
+            *ngIf="innnovation.gitLink"
+          >
+            <i class="fa fa-github"></i> Source Code
+          </a>
         </div>
       </div>
     </div>

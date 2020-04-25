@@ -1,20 +1,55 @@
 [
    {
+      "title":"Nodejs RestFul Micro Service",
+      "description":"Micro service using Nodejs, Expressjs with JWT Authorization",
+      "env":"Nodejs, Expressjs, Typescript, MySQL and MAC",
+      "image":"assets/img/node-express-mysql.jpg",
+      "isAndroidApp":false,
+      "gitLink":"https://github.com/kalaikt/node-web-service-cms"
+   },
+   {
+      "title":"Java RestFul Micro Service",
+      "description":"Micro service using Java spring boot with JWT Authorization",
+      "env":"Java, Spring Boot, JPA, Web Security, MySQL and MAC",
+      "image":"assets/img/spring-boot.png",
+      "isAndroidApp":false,
+      "gitLink":"https://github.com/kalaikt/kalai-portfolio-service"
+   },
+   {
+      "title":"Reactjs and Redux",
+      "description":"React, Redux and Webpack setup",
+      "env":"Node, Webpack, React, Redux, Typescript and MAC",
+      "image":"assets/img/react-redux.png",
+      "isAndroidApp":false,
+      "gitLink":"https://github.com/kalaikt/public-ads"
+   },
+   {
       "title":"Tamil & English Keyboard",
       "description":"Tamil & English Keyboard is an Android app. Primary keypad is Tamil and english keypad as a secondary option in the same keyboard.",
       "env":"Android Studio, Java, GIT, Windows 10",
       "image":"assets/img/tamil-keypad.jpg",
       "link":"https://play.google.com/store/apps/details?id=com.wassysems.tamilkeyboard&hl=en",
       "isAndroidApp":true,
-      "period":"Apr 2017"
+      "period":"Apr 2017",
+      "gitLink":"https://github.com/kalaikt/TamilEnglishKeyboard/tree/master/TamilKeyboard"
    },
    {
       "title":"Single Page TableGrid",
-      "description":"Single page table grid with backend data. All are configrable such as edit, delete, view only, report, search, shuffle and refresh. And dynamic validation for email, username, number and etc.",
+      "description":"Single page table grid with backend data. All options are configrable such as edit, delete, view only, report, search, shuffle and refresh. And dynamic validation for email, username, number and etc developed in 2006.",
       "env":"JavaScript, AJAX, HTML, CSS, jQuery, PHP, MYSQL",
       "image":"assets/img/table-grid.jpg",
       "link":"http://dev.wassystems.com/tablegrid/",
       "isAndroidApp":false,
-      "period":"Dec 2007"
+      "period":"Dec 2006",
+      "gitLink":"https://github.com/kalaikt/TableGrid"
+   },
+   {
+      "title":"Single Page Application",
+      "description":"Single page application page navigations are handled using AJAX and developed in 2006. Data's are stored in msql dababase when user navigate to the page the request will send to backend using AJAX and PHP script will read the request and connect database to pull respective data then will send as response. JavaScript will append in the specified element whenever receive the response from AJAX call.",
+      "env":"JavaScript, AJAX, HTML, CSS, jQuery, PHP, MYSQL",
+      "link":"http://dev.wassystems.com/tablegrid/",
+      "isAndroidApp":false,
+      "period":"Dec 2006",
+      "gitLink":"https://github.com/kalaikt/single-page-app-2008"
    }
 ]
