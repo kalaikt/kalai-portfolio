@@ -21,7 +21,7 @@
         <h4 class="card-header front-end">{{frontEndTile}}</h4>
         <div class="card-body">
           <ul class="card-text">
-            <li *ngFor="let front of skills.frontEnd">{{front}}</li>
+            <li *ngFor="let front of skills.frontEnd"><span class="tool-tip">{{front.name}} <span class="tool-tiptext">{{front.experience}}</span></span></li>
           </ul>
         </div>
       </div>
@@ -31,7 +31,7 @@
         <h4 class="card-header server-side">{{serverSideTitle}}</h4>
         <div class="card-body">
           <ul class="card-text">
-            <li *ngFor="let front of skills.serverSide">{{front}}</li>
+            <li *ngFor="let front of skills.serverSide"><span class="tool-tip">{{front.name}} <span class="tool-tiptext">{{front.experience}}</span></span></li>
           </ul>
         </div>
       </div>
@@ -41,7 +41,7 @@
         <h4 class="card-header backEnd">{{backEndTile}}</h4>
         <div class="card-body">
           <ul class="card-text">
-            <li *ngFor="let front of skills.backEnd">{{front}}</li>
+            <li *ngFor="let front of skills.backEnd"><span class="tool-tip">{{front.name}} <span class="tool-tiptext">{{front.experience}}</span></span></li>
           </ul>
         </div>
       </div>

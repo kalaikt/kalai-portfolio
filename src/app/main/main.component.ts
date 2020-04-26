@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { DataService } from '../data.service';
 import { fadeInAnimation } from '../router.animations';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-main',

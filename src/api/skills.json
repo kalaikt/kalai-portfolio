@@ -1,47 +1,124 @@
 {
-   "frontEnd":[
-      "JavaScript(9Yrs), Angular 1.X/7.0/8.0 (6Yrs)",
-      "HTML 5, CSS 3(6Yrs)",
-      "React.JS, Redux(2Yrs)",
-      "Ext.JS, Require.JS(1Yr)",
-      "jQuery, Bootstrap(8Yrs)",
-      "LESS/SASS/SCSS(3Yr)",
-      "Webpack, Grunt(3Yrs)",
-      "Babel, Bower",
-      "Jasmine, Mocha, Jest, Chai(3Yrs)"
+   "frontEnd": [
+      {
+         "name": "Angular 1.X/7.0/8.0",
+         "experience": "6 Years"
+      },
+      {
+         "name": "JavaScript",
+         "experience": "12 Years"
+      },
+      {
+         "name": "HTML 5, CSS 3",
+         "experience": "6 Years"
+      },
+      {
+         "name": "React.JS, Redux",
+         "experience": "2 Years"
+      },
+      {
+         "name": "jQuery, Bootstrap",
+         "experience": "6 Years"
+      },
+      {
+         "name": "LESS/SASS/SCSS",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Webpack, Grunt",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Babel, Karma",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Jasmine/Mocha/Jest/Chai",
+         "experience": "6 Years"
+      }
    ],
-   "serverSide":[
-      "Spring Boot(2Yrs)",
-      "Hibernate(2Yrs)",
-      "Java(2Yrs)",
-      "JUnit, Sonarqube(2Yrs)",
-      "Node.JS(3Yrs)",
-      "PHP(8Yrs)",
-      "CakePHP(3Yrs)",
-      "Joomla(6Yrs)",
-      "Drupal(2Yrs)",
-      "WordPress(2Yrs)"
+   "serverSide": [
+      {
+         "name": "Node.JS",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Spring Boot",
+         "experience": "2 Years"
+      },
+      {
+         "name": "Hibernate",
+         "experience": "2 Years"
+      },
+      {
+         "name": "Java/J2EE, JSP/JSF",
+         "experience": "2 Years"
+      },
+      {
+         "name": "JUnit, Sonarqube",
+         "experience": "2 Years"
+      },
+      {
+         "name": "PHP",
+         "experience": "2 Years"
+      },
+      {
+         "name": "CakePHP",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Joomla",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Drupal",
+         "experience": "2 Years"
+      },
+      {
+         "name": "WordPress",
+         "experience": "3 Years"
+      }
    ],
-   "backEnd":[
-      "MySQL(9Yrs)",
-      "Oracle 11g/10g(5Yrs)",
-      "PL/SQL(5Yrs)",
-      "SQL Developer(5Yrs)",
-      "SQL Server(1Yr)",
-      "Toad(2Yrs)",
-      "PHPMyAdmin(8Yrs)",
-      "KRONOS 6.0/6.3/7.0(2Yrs)",
-      "PeopleSoft(2Yrs)"
+   "backEnd": [
+      {
+         "name": "MySQL",
+         "experience": "8 Years"
+      },
+      {
+         "name": "Oracle 11g/10g",
+         "experience": "6 Years"
+      },
+      {
+         "name": "PL/SQL",
+         "experience": "6 Years"
+      },
+      {
+         "name": "SQL Server",
+         "experience": "2 Years"
+      },
+      {
+         "name": "SQL Developer/Toad",
+         "experience": "6 Years"
+      },
+      {
+         "name": "KRONOS 6.0/6.3/7.0",
+         "experience": "1 Year"
+      },
+      {
+         "name": "PeopleSoft",
+         "experience": "1 Year"
+      }
    ],
-   "tools":[
-      "GITHub, GitLab, TortoiseSVN(5Yrs)",
-      "Bitbucket(2Yrs)",
-      "JIRA, Confluence(5Yrs)",
-      "Really(3Yrs)",
-      "Visual Studio Code, IntelliJ(2Yrs), Eclipse(2)",
-      "Dreamviewer(10Yrs)",
-      "Chrome Developer tools(10Yrs)",
-      "FireBug(8Yrs)"
+   "tools": [
+      "GITHub, GitLab, TortoiseSVN",
+      "Bitbucket",
+      "JIRA, Confluence",
+      "Really",
+      "Visual Studio Code",
+      "IntelliJ, Eclipse",
+      "Dreamviewer",
+      "Chrome Developer tools",
+      "FireBug"
    ],
-   "welcomeMsg":"<p>Over YEARS years of experience in Web Technologies. Extensive experience in Application Design, Object Oriented Design, Development, Documentation, Debugging, Testing and Implementation. Solid expertise in developing HTML pages on Responsive, Fixed, Fluid & Table less layouts, W3C Compliance, JavaScript libraries, Web 2.0, Web Accessibility, Web Usability and Cross browser platform.</p> <p>Excellent working knowledge and through exposure on compatibility issues with different versions of browsers like IE, Mozilla FF, and Chrome. Experienced in AGILE based development environment and participating in Scrum sessions. Excellent interpersonal abilities, communication skills, time management and Team skills with an intention to work hard to attain project deadlines under stressful environments.</p>"
+   "welcomeMsg": "<p>Over YEARS years of experience in Web Technologies. Extensive experience in Application Design, Object Oriented Design, Development, Documentation, Debugging, Testing and Implementation. Solid expertise in developing HTML pages on Responsive, Fixed, Fluid & Table less layouts, W3C Compliance, JavaScript libraries, Web 2.0, Web Accessibility, Web Usability and Cross browser platform.</p> <p>Excellent working knowledge and through exposure on compatibility issues with different versions of browsers like IE, Mozilla FF, and Chrome. Experienced in AGILE based development environment and participating in Scrum sessions. Excellent interpersonal abilities, communication skills, time management and Team skills with an intention to work hard to attain project deadlines under stressful environments.</p>"
 }
