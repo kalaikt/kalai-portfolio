@@ -2,8 +2,8 @@
    "frontEnd":[
       "JavaScript(9Yrs), Angular 1.X/7.0/8.0 (6Yrs)",
       "HTML 5, CSS 3(6Yrs)",
-      "React.JS, Polymer.JS(1Yr)",
-      "Ext.JS, Require.JS(1Yrs)",
+      "React.JS, Redux(2Yrs)",
+      "Ext.JS, Require.JS(1Yr)",
       "jQuery, Bootstrap(8Yrs)",
       "LESS/SASS/SCSS(3Yr)",
       "Webpack, Grunt(3Yrs)",
@@ -11,10 +11,10 @@
       "Jasmine, Mocha, Jest, Chai(3Yrs)"
    ],
    "serverSide":[
-      "Spring Boot(1Yr)",
-      "Hibernate(1Yr)",
-      "Java(1Yr)",
-      "JUnit, Sonarqube(1Yr)",
+      "Spring Boot(2Yrs)",
+      "Hibernate(2Yrs)",
+      "Java(2Yrs)",
+      "JUnit, Sonarqube(2Yrs)",
       "Node.JS(3Yrs)",
       "PHP(8Yrs)",
       "CakePHP(3Yrs)",
@@ -27,18 +27,18 @@
       "Oracle 11g/10g(5Yrs)",
       "PL/SQL(5Yrs)",
       "SQL Developer(5Yrs)",
-      "SQL Server(1Yrs)",
-      "Toad(1Yr)",
+      "SQL Server(1Yr)",
+      "Toad(2Yrs)",
       "PHPMyAdmin(8Yrs)",
-      "KRONOS 6.0/6.3/7.0(1Yr)",
-      "PeopleSoft(1Yr)"
+      "KRONOS 6.0/6.3/7.0(2Yrs)",
+      "PeopleSoft(2Yrs)"
    ],
    "tools":[
       "GITHub, GitLab, TortoiseSVN(5Yrs)",
-      "Bitbucket(1Yr)",
+      "Bitbucket(2Yrs)",
       "JIRA, Confluence(5Yrs)",
       "Really(3Yrs)",
-      "Notepad++(10Yrs), Atom(2Yrs), Eclipse(2)",
+      "Visual Studio Code, IntelliJ(2Yrs), Eclipse(2)",
       "Dreamviewer(10Yrs)",
       "Chrome Developer tools(10Yrs)",
       "FireBug(8Yrs)"
