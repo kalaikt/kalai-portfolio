@@ -118,15 +118,14 @@
       }
    ],
    "tools": [
-      "GITHub, GitLab, TortoiseSVN",
+      "GITHub, GitLab",
+      "TortoiseSVN",
       "Bitbucket",
       "JIRA, Confluence",
       "Really",
       "Visual Studio Code",
       "IntelliJ, Eclipse",
-      "Dreamviewer",
-      "Chrome Developer tools",
-      "FireBug"
+      "Chrome Developer tools"
    ],
    "welcomeMsg": "<p>Over YEARS years of experience in Web Technologies. Extensive experience in Application Design, Object Oriented Design, Development, Documentation, Debugging, Testing and Implementation. Solid expertise in developing HTML pages on Responsive, Fixed, Fluid & Table less layouts, W3C Compliance, JavaScript libraries, Web 2.0, Web Accessibility, Web Usability and Cross browser platform.</p> <p>Excellent working knowledge and through exposure on compatibility issues with different versions of browsers like IE, Mozilla FF, and Chrome. Experienced in AGILE based development environment and participating in Scrum sessions. Excellent interpersonal abilities, communication skills, time management and Team skills with an intention to work hard to attain project deadlines under stressful environments.</p>"
 }
