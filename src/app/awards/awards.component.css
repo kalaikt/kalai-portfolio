@@ -3,6 +3,7 @@
 }
 .carousel-control-next, .carousel-control-prev{
   color: #000;
+  background-color: #d2d6d5;
 }
 .carousel{
   margin: 0 auto;

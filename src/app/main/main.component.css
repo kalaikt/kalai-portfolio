@@ -2,6 +2,10 @@
   font-size: 1rem;
 }
 
+.img-fluid{
+  width: 85%;
+}
+
 ul.card-text{
   padding-left: 15px;
   font-size: 1rem;
@@ -11,6 +15,7 @@ ul.card-text{
 }
 .welcome-txt{
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .front-end::before{
