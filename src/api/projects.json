@@ -5,6 +5,27 @@
       "endDate":"",
       "projects":[
          {
+            "id":"20202",
+            "title":"Global Fitness Challenge",
+            "description":"Fitness application helps customers to track their physical exercise activities from linked Apple/flipit Watch or manually activities entry system in the portal. It has admin and customer modules; customer module has ability to register or join the challenge, add/edit activities, tracking report and points earnings. Admin module has many sun modules to Manage Client, Challenge, Goals, Team and Email Notification.",
+            "role":"Technical Analyst (Full Stack)",
+            "responsibilities":[
+               "Working closely with clients to define business objectives, project scope, solution space and design/development approach for various knowledge applications",
+               "Working in AWS Cloud, Application Design, Object Oriented Design, Development, Documentation, Testing, Maintenance and Agile/Scrum Project Management",
+               "Managing scrum meetings, backlog refinement, review and retrospective",
+               "Setting up Angular 6.0 framework for frontend development",
+               "Writing angular components using HTML 5, CSS 3, JSON, TypeScript and JavaScript"
+            ],
+            "env":"Angular 6.0, TypeScript, Jest, HTML 5, CSS 3, JavaScript, Node.JS, Yarn, Groove, Spring Boot, JUnit, RESTful Web Service, Redux, Postman, Oracle PL/SQL, SQL Developer, AWS RDB, Cloud Watch, Cloud Front, ELB, EBS, S3, GitLab",
+            "image":"assets/img/globalfitness.png",
+            "link":"https://cigna.globalfitnesschallenge.com",
+            "isFreeLanceProject":false,
+            "period":"Jun 2020  - Present",
+            "client":"Cigna",
+            "company":"EGB Systems & Solutions Inc",
+            "location":"Windsor, CT"
+         },
+         {
             "id":"20201",
             "title":"MyCigna.com",
             "description":"Health insurance application which has many modules such as Policy Coverage’s, Prescriptions and Orders. iPhone and Android Native APP and responsive web application for mobile and desktop.",
