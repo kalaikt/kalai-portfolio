@@ -1,7 +1,7 @@
 <!-- Page Content -->
-<div class="container">
+<div class="container mb" [ngClass]="{'mt-80': pageHeading}">
 
-  <h1 class="my-4">{{welcome}}</h1>
+  <h1 class="my-4" *ngIf="pageHeading">{{pageHeading}}</h1>
   <!-- Features Section -->
   <div class="row">
     <div class="col-lg-8 pr-0">
@@ -15,6 +15,29 @@
 
   <!-- Marketing Icons Section -->
   <h1 class="my-4">Technical Stack</h1>
+  <div class="row" *ngIf="skills.aiTools || skills.uiArchitecture">
+    <div class="col-sm-6 mb-4" *ngIf="skills.aiTools">
+      <div class="card h-100">
+        <h4 class="card-header ai-tools">{{aiToolsTile}}</h4>
+        <div class="card-body">
+          <ul class="card-text">
+            <li *ngFor="let item of skills.aiTools"><span class="tool-tip">{{item.name}} <span class="tool-tiptext">{{item.experience}}</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mb-4" *ngIf="skills.uiArchitecture">
+      <div class="card h-100">
+        <h4 class="card-header ui-architecture">{{uiArchitectureTile}}</h4>
+        <div class="card-body">
+          <ul class="card-text">
+            <li *ngFor="let item of skills.uiArchitecture"><span class="tool-tip">{{item.name}} <span class="tool-tiptext">{{item.experience}}</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="h4 text-muted mb-3">Platforms &amp; delivery</h2>
   <div class="row">
     <div class="col-sm-3 mb-4">
       <div class="card h-100">
@@ -57,7 +80,6 @@
       </div>
     </div>
   </div>
-  <!-- /.row -->
   <!-- /.row -->
 </div>
 <!-- /.container -->

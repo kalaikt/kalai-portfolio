@@ -30,6 +30,12 @@ ul.card-text{
 .tools::before{
   content: "\f0ad";
 }
+.ai-tools::before{
+  content: "\f0eb";
+}
+.ui-architecture::before{
+  content: "\f0e8";
+}
 @media (min-width:1000px) and (max-width:1024px){
   .container{
     padding: 0;

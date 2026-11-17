@@ -1,6 +1,8 @@
 export class Skills {
-  frontEnd: Array<string>;
-  backEnd: Array<string>;
-  serverSide: Array<string>;
+  frontEnd: Array<{ name: string; experience: string }>;
+  backEnd: Array<{ name: string; experience: string }>;
+  serverSide: Array<{ name: string; experience: string }>;
   tools: Array<string>;
+  aiTools?: Array<{ name: string; experience: string }>;
+  uiArchitecture?: Array<{ name: string; experience: string }>;
 }

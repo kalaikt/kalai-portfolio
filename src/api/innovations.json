@@ -1,5 +1,49 @@
 [
    {
+      "title":"Agent-assisted incident response",
+      "description":"DevOps workflow design: CloudWatch alerts drive a bounded agent loop (EventBridge → SQS → Step Functions/LangGraph) for read-only investigation, incident summary, and optional code-fix proposals on an isolated branch. Automated CI gates and a reviewer agent feed a pull request; production merge and deploy require explicit engineer approval. Low-confidence or exhausted retries escalate to ServiceNow with full context. Safety: least-privilege access, log redaction, and untrusted log input.",
+      "env":"AWS CloudWatch, EventBridge, SQS, Lambda, ECS, Step Functions, LangGraph, AI agents (Analyzer, Code-fix, Reviewer), GitHub PRs, CI (tests, lint, security), ServiceNow, Python",
+      "image":"assets/img/agent-incident-response-flow.png",
+      "link":"assets/img/agent-incident-response-flow.png",
+      "isAndroidApp":false,
+      "period":"Nov 2026"
+   },
+   {
+      "title":"PlaySplit",
+      "description":"React Native (Expo) app for badminton groups: manage players by skill level, shuffle them across courts with a balanced mix of beginners and advanced players, and visualize court assignments. Data is stored locally with SQLite.",
+      "env":"React Native, Expo, TypeScript, SQLite, React Native Paper, React Navigation",
+      "image":"assets/img/react-redux.png",
+      "isAndroidApp":false,
+      "period":"Nov 2025",
+      "gitLink":"https://github.com/kalaikt/play-split"
+   },
+   {
+      "title":"EMS UI",
+      "description":"Employee management system UI built with Angular 17 and NgRx, using a json-server mock API for CRUD workflows and rapid UI iteration.",
+      "env":"Angular 17, TypeScript, NgRx, Bootstrap 5, json-server",
+      "image":"assets/img/globalfitness.png",
+      "isAndroidApp":false,
+      "period":"Mar 2024",
+      "gitLink":"https://github.com/kalaikt/ems-ui"
+   },
+   {
+      "title":"Alphanumeric Phone Generator",
+      "description":"Full-stack exercise that generates paginated alpha-numeric phone number combinations. Includes a Spring Boot REST API and an Angular UI (generate-alphanumeric-ui).",
+      "env":"Java, Spring Boot, Angular, TypeScript",
+      "image":"assets/img/spring-boot.png",
+      "isAndroidApp":false,
+      "period":"Apr 2020",
+      "gitLink":"https://github.com/kalaikt/generate-alphanumeric"
+   },
+   {
+      "title":"Charu Drawing",
+      "description":"Lightweight HTML5 drawing canvas — a simple creative playground built for practice with canvas APIs.",
+      "env":"HTML5, CSS, JavaScript",
+      "isAndroidApp":false,
+      "period":"Apr 2020",
+      "gitLink":"https://github.com/kalaikt/charu-drawing"
+   },
+   {
       "title":"Dhaaya Kattai",
       "description":"Inspired by Ludo game. I just changed the design as Tamil Nadu style.",
       "env":"Nodejs, Expressjs, Typescript, ReactNative, MySQL and MAC",

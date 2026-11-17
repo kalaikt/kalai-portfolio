@@ -21,8 +21,8 @@
   </div>
 </nav>
 
-<header>
-  <div class="container role" [hidden]="!showRole">
+<header *ngIf="showRole">
+  <div class="container role">
     <h1>{{roles}}</h1>
   </div>
 </header>

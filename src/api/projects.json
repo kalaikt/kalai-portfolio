@@ -1,8 +1,92 @@
 [
    {
+      "companyName":"The Cigna Group",
+      "startDate":"11/01/2021",
+      "endDate":"",
+      "projects":[
+         {
+            "id":"20261",
+            "title":"Provider Intake APEX",
+            "description":"Provider enrollment automation spanning intake extraction, operational review, enrichment, and downstream updates. Agentic provider enrollment platform combining AI-driven extraction, validation, enrichment, human-in-the-loop review, and enterprise system integration.",
+            "role":"Software Engineering Senior Advisor",
+            "responsibilities":[
+               "Designed and delivered agentic enrollment workflows with LLM-powered extraction and validation from email and document attachments",
+               "Built Angular, GraphQL, and AppSync operational review UIs for exception handling and approval management",
+               "Integrated AI pipelines with Amazon S3, DynamoDB, provider master data, and mainframe systems for onboarding and maintenance",
+               "Used GitHub Copilot, Microsoft Copilot, and Cursor AI for agent development, orchestration, and accelerated delivery"
+            ],
+            "env":"Angular, TypeScript, Python, GraphQL, AppSync, Lambda, S3, DynamoDB, SQS, Step Functions, ECS, Aurora PostgreSQL, Databricks, Terraform, GitHub Copilot, Microsoft Copilot, Cursor AI, Agentic AI",
+            "image":"assets/img/mycigna.png",
+            "link":"",
+            "isFreeLanceProject":false,
+            "period":"Apr 2026 - Present",
+            "client":"Cigna",
+            "company":"The Cigna Group",
+            "location":"Raleigh, NC"
+         },
+         {
+            "id":"20253",
+            "title":"Provider Inquiry Tool",
+            "description":"Provider and network search application for customer-support operations, integrating enterprise data sources with AWS services so teams can look up providers, networks, and related details.",
+            "role":"Software Engineering Senior Advisor",
+            "responsibilities":[
+               "Built and maintained the Angular inquiry experience for provider, network, and selection workflows",
+               "Connected the UI to AWS-backed data services including Lambda, Glue, DynamoDB, and OpenSearch",
+               "Contributed to Databricks pipelines integrating provider data from PTDM, CAQH, CHCP, Reltio, and Medicare for API consumption"
+            ],
+            "env":"Angular 14.3, TypeScript 4.6, GraphQL 16.6, Apollo Client 3.6, NgRx 13, Python 3.11, Lambda, Glue, DynamoDB, OpenSearch, S3, Databricks, Scala, Terraform, GitHub",
+            "image":"assets/img/mycigna.png",
+            "link":"",
+            "isFreeLanceProject":false,
+            "period":"Aug 2023 - Present",
+            "client":"Cigna",
+            "company":"The Cigna Group",
+            "location":"Raleigh, NC"
+         },
+         {
+            "id":"20221",
+            "title":"Integrated Accumulator Platform",
+            "description":"Claims-engine mismatch correction platform with Angular front end and serverless APIs on AWS.",
+            "role":"Software Engineering Senior Advisor",
+            "responsibilities":[
+               "Translated requirements into solution designs; led delivery, training, and Agile ceremonies",
+               "Established the Angular UI foundation and built components with TypeScript, HTML5, CSS3, and JSON",
+               "Built Node.js and TypeScript REST services on AWS API Gateway and Lambda with Jest tests; resolved SonarQube findings"
+            ],
+            "env":"Angular 11, TypeScript, NgRx, Jest, Node.js, Yarn, REST, Postman, PostgreSQL, AWS RDS, CloudWatch, CloudFront, ELB, EBS, S3, Terraform, GitHub",
+            "image":"assets/img/globalfitness.png",
+            "link":"",
+            "isFreeLanceProject":false,
+            "period":"Nov 2021 - Aug 2022",
+            "client":"Cigna",
+            "company":"The Cigna Group",
+            "location":"Raleigh, NC"
+         },
+         {
+            "id":"20212",
+            "title":"Transparency in Coverage",
+            "description":"Patient cost-estimation APIs driven by request parameters, supporting transparency and coverage disclosure initiatives.",
+            "role":"Software Engineering Senior Advisor",
+            "responsibilities":[
+               "Worked with stakeholders to define scope, solution options, and the design and development approach",
+               "Developed REST services in Go with AWS API Gateway and EKS across design, implementation, testing, and documentation",
+               "Led Scrum meetings, backlog refinement, code reviews, and retrospectives; supported team training and Go environment setup"
+            ],
+            "env":"Go, REST, Postman, PostgreSQL, AWS RDS, CloudWatch, EKS, ELB, EBS, S3, Terraform, GitHub",
+            "image":"assets/img/mycigna.png",
+            "link":"",
+            "isFreeLanceProject":false,
+            "period":"Nov 2021 - Aug 2022",
+            "client":"Cigna",
+            "company":"The Cigna Group",
+            "location":"Raleigh, NC"
+         }
+      ]
+   },
+   {
       "companyName":"EGB Systems & Solutions Inc",
       "startDate":"09/08/2017",
-      "endDate":"",
+      "endDate":"11/01/2021",
       "projects":[
          {
             "id":"20202",
@@ -20,7 +104,7 @@
             "image":"assets/img/globalfitness.png",
             "link":"https://cigna.globalfitnesschallenge.com",
             "isFreeLanceProject":false,
-            "period":"Jun 2020  - Present",
+            "period":"Jun 2020 - May 2021",
             "client":"Cigna",
             "company":"EGB Systems & Solutions Inc",
             "location":"Windsor, CT"
@@ -39,9 +123,29 @@
             ],
             "env":"Angular 8.0, TypeScript, Jest, HTML 5, CSS 3, JavaScript, Node.JS, Yarn, Spring Boot, JBoss, JUnit, RESTful Web Service, Postman, Oracle PL/SQL, SQL Developer, GITLab",
             "image":"assets/img/mycigna.png",
-            "link":"http://mycigna.com",
+            "link":"https://my.cigna.com",
             "isFreeLanceProject":false,
             "period":"May 2019 - Mar 2020",
+            "client":"Cigna",
+            "company":"EGB Systems & Solutions Inc",
+            "location":"Windsor, CT"
+         },
+         {
+            "id":"20191",
+            "title":"Project G",
+            "description":"Home insurance application with modules for HO3, HO4, HO5, and HO6, supporting Pre-Qual, Quote, Final, and Issue services.",
+            "role":"Senior Frontend Consultant/Fullstack Developer",
+            "responsibilities":[
+               "Worked with clients on objectives, scope, solution options, and delivery approach",
+               "Set up Angular 6 for UI development; built components with HTML5, CSS3, TypeScript, and JavaScript",
+               "Developed Spring Boot REST services with JUnit tests; improved code quality and SonarQube compliance",
+               "Ran Scrum ceremonies including backlog refinement, reviews, and retrospectives"
+            ],
+            "env":"Angular 6.0, TypeScript, HTML 5, CSS 3, JavaScript, Node.JS, NPM, Spring Boot, JBoss, JUnit, RESTful Web Service, Postman, Oracle PL/SQL, SQL Developer, Git",
+            "image":"assets/img/spring-boot.png",
+            "link":"",
+            "isFreeLanceProject":false,
+            "period":"May 2018 - Feb 2019",
             "client":"Cigna",
             "company":"EGB Systems & Solutions Inc",
             "location":"Windsor, CT"

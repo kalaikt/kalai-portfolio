@@ -45,9 +45,12 @@ header{color: gray; padding: 2rem;}
 }
 .role h1{
   color: #42AB9E;
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-top: 60px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-top: 6.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
 }
 #logo-kalai{color: #000; font-size: 2rem; text-transform: uppercase;border-bottom: 1px solid #42AB9E;line-height: 2rem;
     color: #fff;}
@@ -63,7 +66,7 @@ header{color: gray; padding: 2rem;}
     line-height: .52rem;
     margin-top: 5px;
 }
-header{padding-bottom:0; }
+header{padding: 0 2rem 0.5rem; }
 @media only screen and (max-width:1024px){
   .navbar-brand div{
     font-size: .52rem;
@@ -82,9 +85,9 @@ header{padding-bottom:0; }
     padding: 0;
   }
   .role h1{
-    font-size: 3rem;
-    line-height: 3rem;
-    margin-top: 80px;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 7rem;
   }
 }
 

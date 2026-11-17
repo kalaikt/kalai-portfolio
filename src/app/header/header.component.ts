@@ -18,16 +18,22 @@ export class HeaderComponent implements OnInit {
       //  { text: 'Testimonial',   path: 'testimonial' }
       ];
   public name = 'Kalaikumar';
-  public logo_slogan = 'ABOUT ME AS A PROFESSIONAL';
+  public logo_slogan = 'Software Engineer Senior Advisor | Sr. Full Stack Engineer';
 
   public showRole;
-  public roles = 'Sr. UI/Front-end Engineer and UI Architect';
+  public roles = 'Software Engineer Senior Advisor | Sr. Full Stack Engineer';
 
   constructor(private router: Router) {
-    router.events.subscribe((url:any) => {
-      //console.log(url.url);
-      this.showRole = url.url == '/' || url.url =='/about-me' || url.url =='/contact-me';
+    this.setShowRole(this.router.url);
+    this.router.events.subscribe((event: any) => {
+      if (event.url !== undefined) {
+        this.setShowRole(event.url);
+      }
     });
+  }
+
+  private setShowRole(url: string) {
+    this.showRole = url === '/' || url === '';
   }
 
   ngOnInit() {

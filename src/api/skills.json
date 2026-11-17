@@ -1,132 +1,200 @@
 {
    "frontEnd": [
       {
-         "name": "Angular 1.X/7.0/8.0",
-         "experience": "6 Years"
+         "name": "Angular 1.x–19",
+         "experience": "10 Years"
       },
       {
-         "name": "JavaScript",
-         "experience": "12 Years"
+         "name": "TypeScript / JavaScript",
+         "experience": "15 Years"
       },
       {
          "name": "HTML 5, CSS 3",
+         "experience": "15 Years"
+      },
+      {
+         "name": "React, React Native, Redux",
          "experience": "6 Years"
       },
       {
-         "name": "React/Native, Redux",
+         "name": "RxJS, NgRx",
+         "experience": "4 Years"
+      },
+      {
+         "name": "Expo, React Navigation",
          "experience": "2 Years"
       },
       {
-         "name": "jQuery, Bootstrap",
+         "name": "GraphQL, Apollo Client",
+         "experience": "3 Years"
+      },
+      {
+         "name": "Bootstrap, LESS/SASS/SCSS",
+         "experience": "8 Years"
+      },
+      {
+         "name": "Webpack, Vite",
          "experience": "6 Years"
       },
       {
-         "name": "LESS/SASS/SCSS",
-         "experience": "6 Years"
-      },
-      {
-         "name": "Webpack, Grunt",
-         "experience": "6 Years"
-      },
-      {
-         "name": "Babel, Karma",
-         "experience": "6 Years"
-      },
-      {
-         "name": "Jasmine/Mocha/Jest/Chai",
+         "name": "Jest, Jasmine, Mocha, Chai",
          "experience": "6 Years"
       }
    ],
    "serverSide": [
       {
-         "name": "Node.JS",
-         "experience": "6 Years"
+         "name": "Node.js, Express.js",
+         "experience": "8 Years"
       },
       {
-         "name": "Spring Boot",
-         "experience": "2 Years"
-      },
-      {
-         "name": "Hibernate",
-         "experience": "2 Years"
-      },
-      {
-         "name": "Java/J2EE, JSP/JSF",
-         "experience": "2 Years"
-      },
-      {
-         "name": "JUnit, Sonarqube",
-         "experience": "2 Years"
-      },
-      {
-         "name": "PHP",
-         "experience": "2 Years"
-      },
-      {
-         "name": "CakePHP",
-         "experience": "6 Years"
-      },
-      {
-         "name": "Joomla",
-         "experience": "6 Years"
-      },
-      {
-         "name": "Drupal",
-         "experience": "2 Years"
-      },
-      {
-         "name": "WordPress",
+         "name": "Go (Golang) — REST, AWS API Gateway, EKS",
          "experience": "3 Years"
+      },
+      {
+         "name": "Python 3 — FastAPI, Flask, Lambda, agents",
+         "experience": "4 Years"
+      },
+      {
+         "name": "REST & GraphQL APIs, JWT",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Java, Spring Boot, Hibernate / JPA",
+         "experience": "5 Years"
+      },
+      {
+         "name": "JUnit, SonarQube",
+         "experience": "3 Years"
+      },
+      {
+         "name": "PHP, WordPress",
+         "experience": "8 Years"
       }
    ],
    "backEnd": [
       {
          "name": "MySQL",
-         "experience": "8 Years"
+         "experience": "10 Years"
       },
       {
-         "name": "Oracle 11g/10g",
-         "experience": "6 Years"
+         "name": "PostgreSQL",
+         "experience": "4 Years"
       },
       {
-         "name": "PL/SQL",
+         "name": "MongoDB",
+         "experience": "4 Years"
+      },
+      {
+         "name": "SQLite",
+         "experience": "3 Years"
+      },
+      {
+         "name": "Amazon DynamoDB",
+         "experience": "3 Years"
+      },
+      {
+         "name": "Oracle, PL/SQL",
          "experience": "6 Years"
       },
       {
          "name": "SQL Server",
-         "experience": "2 Years"
-      },
-      {
-         "name": "MongoDB",
-         "experience": "2 Years"
-      },
-      {
-         "name": "PostgreSQL",
-         "experience": "2 Years"
-      },
-      {
-         "name": "SQL Developer/Toad",
-         "experience": "6 Years"
-      },
-      {
-         "name": "KRONOS 6.0/6.3/7.0",
-         "experience": "1 Year"
-      },
-      {
-         "name": "PeopleSoft",
-         "experience": "1 Year"
+         "experience": "3 Years"
       }
    ],
    "tools": [
-      "AWS Cloud Watch, Cloud Front, EC2, VPC, S3, EBS, RDS",
-      "GITHub, GitLab",
-      "TortoiseSVN",
-      "Bitbucket",
-      "JIRA, Confluence",
-      "Really",
-      "Visual Studio Code",
-      "IntelliJ, Eclipse",
-      "Chrome Developer tools"
+      "AWS — Lambda, API Gateway, ECS, EKS, Step Functions, S3, RDS, DynamoDB, Bedrock, OpenSearch",
+      "Terraform, Docker, CI/CD (GitHub, Azure DevOps)",
+      "GitHub, GitLab, Bitbucket",
+      "JIRA, Confluence, Rally",
+      "Visual Studio Code, Cursor",
+      "IntelliJ IDEA, Android Studio",
+      "Chrome DevTools, Postman",
+      "Figma, Storybook",
+      "LangGraph, LangChain, LlamaIndex, Haystack, RAG, MCP"
    ],
-   "welcomeMsg": "<p>Over YEARS years of experience in Web Technologies. Extensive experience in AWS Cloud, Application Design, Object Oriented Design, Development, Documentation, Debugging, Testing and Implementation. Solid expertise in developing HTML pages on Responsive, JavaScript libraries, Angular, React, Bootstrap, CSS, LESS/SASS/SCSS, Web 2.0, Web Accessibility, Web Usability and Cross browser platform.</p> <p>Excellent working knowledge and through exposure on compatibility issues with different versions of browsers like IE, Mozilla FF, and Chrome. Experienced in AGILE based development environment and participating in Scrum sessions. Excellent interpersonal abilities, communication skills, time management and Team skills with an intention to work hard to attain project deadlines under stressful environments.</p>"
+   "aiTools": [
+      {
+         "name": "LangGraph, LangChain (agent orchestration)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "LlamaIndex, Haystack (RAG frameworks)",
+         "experience": "1 Year"
+      },
+      {
+         "name": "AWS Bedrock (models, agents, knowledge bases)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "RAG — retrieval-augmented generation",
+         "experience": "2 Years"
+      },
+      {
+         "name": "Agentic AI workflows (bounded agent loops, HITL)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "MCP (Model Context Protocol)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "OpenAI, Anthropic Claude (APIs & chat)",
+         "experience": "3 Years"
+      },
+      {
+         "name": "Cursor (agents, Composer, MCP)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "GitHub Copilot, Microsoft Copilot",
+         "experience": "3 Years"
+      },
+      {
+         "name": "Prompt engineering & LLM pair programming",
+         "experience": "3 Years"
+      },
+      {
+         "name": "AI-assisted code review, refactors, test scaffolding",
+         "experience": "2 Years"
+      },
+      {
+         "name": "Amazon OpenSearch (vector / k-NN search)",
+         "experience": "2 Years"
+      },
+      {
+         "name": "Pinecone (vector database)",
+         "experience": "1 Year"
+      },
+      {
+         "name": "Embeddings & vector pipelines (RAG)",
+         "experience": "2 Years"
+      }
+   ],
+   "uiArchitecture": [
+      {
+         "name": "Component-driven & modular front-end architecture",
+         "experience": "10 Years"
+      },
+      {
+         "name": "Design systems & shared UI patterns",
+         "experience": "8 Years"
+      },
+      {
+         "name": "Web accessibility (WCAG, a11y)",
+         "experience": "8 Years"
+      },
+      {
+         "name": "Responsive, mobile-first & cross-browser UI",
+         "experience": "15 Years"
+      },
+      {
+         "name": "State management (NgRx, Redux, RxJS)",
+         "experience": "6 Years"
+      },
+      {
+         "name": "Performance, lazy loading & Core Web Vitals",
+         "experience": "5 Years"
+      }
+   ],
+   "welcomeMsg": "<p><strong>Software Engineer Senior Advisor | Sr. Full Stack Engineer</strong> with over YEARS years building responsive web and mobile applications. I lead full-stack and UI architecture across Angular, React, and React Native (Expo) with TypeScript, NgRx, GraphQL, and services in Node.js, Go, Python, and Java on AWS.</p> <p>I use modern AI and agent tooling — LangGraph, LangChain, LlamaIndex, Haystack, RAG, AWS Bedrock, OpenSearch and Pinecone vectors, MCP, Cursor, Copilot, and LLMs — to accelerate design spikes, reviews, agent workflows, and delivery while keeping quality high. Comfortable in Agile/Scrum, mentoring engineers, and shipping accessible, cross-browser experiences on deadline.</p>"
 }
